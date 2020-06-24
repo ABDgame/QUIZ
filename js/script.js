@@ -361,12 +361,7 @@ const myApp=[
       }
 
 
-      $ github-linguist grammars.yml 
-     grammars.yml: 884 linhas (884 sloc) 
-     tipo: Texto 
-     tipo mime: text / x-yaml 
-     idioma: YAML
-
+     
      
 
 
