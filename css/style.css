@@ -52,6 +52,8 @@ body{
 }
 
 .app .quiz-box h1{
+  text-align: center;
+  margin: 20px: 0px; 20; 0px;
   text-transform: uppercase;
   font-size: 70px;
   font-weight: bold;
