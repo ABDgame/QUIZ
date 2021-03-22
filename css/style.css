@@ -58,7 +58,7 @@ body{
   margin-inline-start: 0px;
   margin-inline-end: 0px;
       
-  /*position: relative;*/
+  position: relative;
   text-align:center;
   /*margin: 20px;*/
   /*text-transform: uppercase;*/
