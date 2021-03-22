@@ -52,9 +52,7 @@ body{
 }
 
 .app .quiz-box h1{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);    
+  position: relative;    
   text-align: center;
   margin: 20px: 0px; 20; 0px;
   text-transform: uppercase;
