@@ -18,9 +18,13 @@ body{
 } 
 
 .app{
+   /* max-width: 700px;
+   height: 600px;
+   margin: 0 auto;
+   padding: 10px 50px 50px 50px; */
    max-width: 700px;
    height: 600px;
-   margin: 60px auto;
+   margin: 0 auto;
    background-color: rgba(91, 128, 86, 0.5);
    padding: 10px 50px 50px 50px;
    border-radius: 50px;
