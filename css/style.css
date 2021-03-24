@@ -132,7 +132,7 @@ body{
      cursor: pointer;
      animation: button 1s ease;  
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 992px){
   .app {
     width:40%;
     
