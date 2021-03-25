@@ -115,13 +115,24 @@ body{
 }
 /*CAMPO DOS 4 BOTÕES COM AS 4 IMAGENS*/
 .app .option-box button{
-     flex-basis: calc(50% - 30px);
+      background-color:#510b84;
+      width:250px;
+      font-size:20px;
+      color:#fff;
+      border: 1px solid #1D3C6A;
+      border-radius: 50px;
+      margin: 10px 40px 10px 0px;
+      padding:10px 10px;
+
+
+     /* flex-basis: calc(50% - 30px);
      max-width:  calc(50% - 30px);
      margin:10px; 
      border:0;
      padding:0;
      border-radius:4px;
-     overflow: hidden;
+     overflow: hidden; */
+
      cursor: pointer;
      animation: button 1s ease;  
 }
