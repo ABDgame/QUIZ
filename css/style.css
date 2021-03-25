@@ -18,12 +18,6 @@ body{
 } 
 
 .app{
-   /* max-width: 700px;
-   height: 600px;
-   margin: 0 auto;
-   padding: 10px 50px 50px 50px; */
-   display: flex;
-   flex-wrap: wrap;
    max-width: 700px;
    height: 600px;
    margin: 60px auto;
@@ -59,7 +53,7 @@ body{
 
 .app .quiz-box h1{
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 70px;
   font-weight: bold;
   -webkit-animation: question 1.5s ease alternate infinite;
   animation: question 1.5s ease alternate infinite;
@@ -68,7 +62,6 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
- 
 }
 
 @-webkit-keyframes question{
@@ -132,7 +125,7 @@ body{
      cursor: pointer;
      animation: button 1s ease;  
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1200px){
   .app {
     width:40%;
     
