@@ -43,7 +43,7 @@ body{
 
 .app .quiz-box h4,
 .app .quiz-box h1{
-  font-size:30px;
+  font-size:10vw;
   font-weight: 400;
   color:#FFFFFF;
   margin:10px 0px; 
@@ -53,7 +53,7 @@ body{
 
 .app .quiz-box h1{
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 10vw;
   font-weight: bold;
   -webkit-animation: question 1.5s ease alternate infinite;
   animation: question 1.5s ease alternate infinite;
