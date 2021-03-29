@@ -1,60 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap');
-body{
+body
+{
       margin:0;
       padding:0;
-      background-image: url("background.png"); 
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
+      background-color:#eeeeee;
       font-family: 'Montserrat', sans-serif;
       font-weight: 400;
 } 
-  *{
+
+ *
+ {
      box-sizing: border-box;
      margin:0;
      padding:0;
      outline:none;
-} 
-
-.app{
-   max-width: 700px;
-   height: 600px;
-   margin: 0 auto;
-   background-color: rgba(91, 128, 86, 0.5);
-   padding: 10px 50px 50px 50px;
-   border-radius: 50px;
-   border: 2px solid #4BF1FA;
-   box-shadow: 5px 10px 1px #4BF1FA;
-   
+  
 }
 
-.row{
+.app
+{
+  max-width: 700px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 50px 50px 50px;
+  border-radius: 50px;
+  border: 2px solid #4BF1FA;
+  box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.row
+{
   display: flex;
   flex-wrap: wrap;
 }
 
-.app .quiz-box{
+.app .quiz-box
+{
   
   flex-basis: 100%;
   max-width: 100%;
-  
 }
 
+
+
 .app .quiz-box h4,
-.app .quiz-box h1{
-  font-size:10vw;
-  font-weight: 400;
-  color:#FFFFFF;
-  margin:10px 0px; 
+.app .quiz-box h1
+{
+  font-family: "sans-serif";
+  font-size:60px;
   text-align: center;
+  color:#FFFFFF;
+  padding: 2px 0px; 
   font-weight: bold;
 }
 
 .app .quiz-box h1{
   text-transform: uppercase;
-  font-size: 10vw;
+  font-size: 70px;
   font-weight: bold;
+  overflow: hidden;
+  
   -webkit-animation: question 1.5s ease alternate infinite;
   animation: question 1.5s ease alternate infinite;
   background: url(C.jpg);
@@ -115,22 +121,13 @@ body{
 }
 /*CAMPO DOS 4 BOTÕES COM AS 4 IMAGENS*/
 .app .option-box button{
-      
-      width:250px;
-      font-size:20px;
-      color:#fff;
-      margin: 10px 40px 10px 0px;
-      padding:10px 10px;
-
-
      flex-basis: calc(50% - 30px);
      max-width:  calc(50% - 30px);
-     /* margin:10px; 
+     margin:10px; 
      border:0;
      padding:0;
      border-radius:4px;
-     overflow: hidden; */
-
+     overflow: hidden;
      cursor: pointer;
      animation: button 1s ease;  
 }
