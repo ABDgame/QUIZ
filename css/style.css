@@ -1,64 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap');
- 
 body{
       margin:0;
-      font-size: 16px;
-      background-image: url("background.png");
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url("background.jpg"); 
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
       font-family: 'Montserrat', sans-serif;
       font-weight: 400;
-}
-*{
-      box-sizing: border-box;
-      margin:0;
-      padding:0;
-      outline:none;
+} 
+  *{
+     box-sizing: border-box;
+     margin:0;
+     padding:0;
+     outline:none; 
 } 
 
-.app
-{
-  max-width: 700px;
-  margin: 60px auto; 
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 10px;
+.app{
+   max-width: 700px;
+   height: 600px;
+   margin:60px auto;
+   background-color: rgba(91, 128, 86, 0.5);
+   padding: 10px 50px 50px 50px;
+   border-radius: 50px;
+   border: 2px solid #4BF1FA;
+   box-shadow: 5px 10px 1px #4BF1FA;
 }
 
-.row
-{
+.row{
   display: flex;
   flex-wrap: wrap;
 }
 
-.app .quiz-box
-{
-  
+.app .quiz-box{
   flex-basis: 100%;
   max-width: 100%;
 }
 
-
-
 .app .quiz-box h4,
-.app .quiz-box h1
-{
-  font-family: "sans-serif";
-  font-size:60px;
-  text-align: center;
+.app .quiz-box h1{
+  list-style: none; 
+  float: left;
+  font-size:30px;
+  font-weight: 400;
   color:#FFFFFF;
-  padding: 2px 0px; 
+  margin:10px 0px; 
+  text-align: center;
   font-weight: bold;
+  box-sizing: border-box;
 }
 
+
 .app .quiz-box h1{
+  width: 100%;
+  height: 70px;
+  line-height: 50px;
+  text-align: center;
   text-transform: uppercase;
   font-size: 70px;
   font-weight: bold;
-  overflow: hidden;
-  
   -webkit-animation: question 1.5s ease alternate infinite;
   animation: question 1.5s ease alternate infinite;
   background: url(C.jpg);
@@ -107,10 +109,13 @@ body{
   flex-basis: 100%;
   max-width: 100%;
   display: flex;
-  padding:15px 15px;
-  flex-wrap:wrap; 
+  flex-wrap:wrap;
   justify-content: center;
   align-content: flex-start;
+  padding:15px 15px;
+   
+  
+  
 }
 /*CAMPO DAS 4 IMAGENS DENTRO DOS BOTÕES*/
 .app .option-box img{
@@ -119,40 +124,36 @@ body{
 }
 /*CAMPO DOS 4 BOTÕES COM AS 4 IMAGENS*/
 .app .option-box button{
-     position: relative;
-     flex-basis: calc(50% - 30px);
-     max-width:  calc(50% - 30px);
+     flex-basis: calc(50% - 20px);
+     max-width:  calc(50% - 20px);
      margin:10px; 
-     border:0;
-     padding:0;
-     border-radius:4px;
+     border:1px;
+     padding: 10px 45px;
+     border-radius: 10px;
      overflow: hidden;
      cursor: pointer;
+     display:inline-block;
      animation: button 1s ease;  
 }
+
 @media screen and (max-width: 1200px){
-  .app {
+  .app,
+  .app .option-box,
+  .app .quiz-box h4,
+  .app .quiz-box h1{
     width:40%;
-    height: auto;
-    margin:80px auto 80px;
+    
   }
-  .app .option-box button
-  {
-    flex-basis: calc(50% - 30px);
-    max-width:  calc(50% - 30px);
- }
 }
 @media screen and (max-width: 600px){
-  .app {
-    width:100%;
-    height: auto;parei aqui
-    margin:80px auto 80px;
-   }
-   .app .option-box button
-  {
-    flex-basis: calc(50% - 30px);
-    max-width:  calc(50% - 30px);
-}
+  .app,
+  .app .option-box,
+  .app .quiz-box h4,
+  .app .quiz-box h1{
+    width:90%;
+    
+  }
+} 
 
 @keyframes button{
   0%{transform: scale(0.5);opacity:0 }
