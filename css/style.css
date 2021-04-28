@@ -1,63 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap');
 body{
       margin:0;
-      padding: 0;
-      box-sizing: border-box;
-      background-image: url("background.jpg"); 
+      padding:0;
+      display:flex;
+      justify-content:center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url("background.png"); 
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
       font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
 } 
   *{
-     box-sizing: border-box;
-     margin:0;
-     padding:0;
-     outline:none; 
+     box-sizing: border-box; 
 } 
 
 .app{
-   max-width: 700px;
-   height: 600px;
-   margin:60px auto;
+   
+   /*height: 600px;*/
+   /*position: relative;  INSERIDO 26/04/2021*/
+   max-width: 700px; 
+   /*display: flex;  INSERIDO 26/04/2021*/
+   /*justify-content: space-between;  INSERIDO 26/04/2021*/
+   /*flex-wrap: wrap;  INSERIDO 26/04/2021 */
+   margin: 60px auto;
+   backdrop-filter:blur(10px); /*INSERIDO 27-04-2021*/
    background-color: rgba(91, 128, 86, 0.5);
    padding: 10px 50px 50px 50px;
    border-radius: 50px;
    border: 2px solid #4BF1FA;
    box-shadow: 5px 10px 1px #4BF1FA;
+   
 }
 
 .row{
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
 }
 
 .app .quiz-box{
+  
   flex-basis: 100%;
   max-width: 100%;
+  
 }
 
 .app .quiz-box h4,
 .app .quiz-box h1{
-  list-style: none; 
-  float: left;
   font-size:30px;
   font-weight: 400;
   color:#FFFFFF;
   margin:10px 0px; 
   text-align: center;
   font-weight: bold;
-  box-sizing: border-box;
 }
 
-
 .app .quiz-box h1{
-  width: 100%;
-  height: 70px;
-  line-height: 50px;
-  text-align: center;
   text-transform: uppercase;
   font-size: 70px;
   font-weight: bold;
@@ -103,58 +103,60 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
   }
-/*CAMPO DA CAIXA COM  OS 4 BOTÕES, CONTENDO DENTRO AS 4 IMAGENS */
+
   .app .option-box{
   min-height:500px;
   flex-basis: 100%;
   max-width: 100%;
   display: flex;
-  flex-wrap:wrap;
+  padding:15px 15px;
+  flex-wrap:wrap; 
   justify-content: center;
   align-content: flex-start;
-  padding:15px 15px;
-   
-  
-  
 }
-/*CAMPO DAS 4 IMAGENS DENTRO DOS BOTÕES*/
+/*CAMPO DAS IMAGENS*/
 .app .option-box img{
    width: 100%;
    display: block;
 }
-/*CAMPO DOS 4 BOTÕES COM AS 4 IMAGENS*/
+/*BOTÕES DAS IMAGENS*/
 .app .option-box button{
-     flex-basis: calc(50% - 20px);
-     max-width:  calc(50% - 20px);
-     margin:10px; 
-     border:1px;
-     padding: 10px 45px;
-     border-radius: 10px;
+     position: relative; /*ADICIONADO 27/04/2021*/
+     top: 10px;/*ADICIONADO 27/04/2021*/
+     left: 10px;/*ADICIONADO 27/04/2021*/
+     backdrop-filter: blur(20px);/*ADICIONADO 27/04/2021*/
+     flex-basis: calc(100% - 20px); /* MODIFICADO 27/04/2021, ERA flex-basis */
+     max-width:  calc(100% - 20px); /*MODIFICADO 27/04/2021, ERA max-width*/
+     z-index: 1; /*ADICIONADO 27/04/2021*/
+     display: flex; /*ADICIONADO 27/04/2021*/
+     justify-content: center; /*ADICIONADO 27/04/2021*/
+     align-items: center; /*ADICIONADO 27/04/2021*/
+     margin:10px;
+     border:0;
+     padding:0;
+     border-radius:4px;
      overflow: hidden;
      cursor: pointer;
-     display:inline-block;
      animation: button 1s ease;  
 }
-
-@media screen and (max-width: 1200px){
-  .app,
-  .app .option-box,
-  .app .quiz-box h4,
-  .app .quiz-box h1{
-    width:40%;
+@media screen and (max-width: 700px){ /* SUBTRAI 700 - 8 = 692*/
+ 
+  .app {
+  	position: relative;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
     
   }
 }
-@media screen and (max-width: 600px){
-  .app,
-  .app .option-box,
-  .app .quiz-box h4,
-  .app .quiz-box h1{
-    width:90%;
+/*
+@media screen and (max-width: 350px){/* SUBTRAI 700 - 8 = 692*/
+ /* .app {
+    width:40%;
     
-  }
-} 
+  }*/
 
+/*CAMPO DAS IMAGENS, TESTAR/TESTEI ESTE BLOCO, COM OS TUTORIAIS SALVOS*/
 @keyframes button{
   0%{transform: scale(0.5);opacity:0 }
   100%{transform: scale(1);opacity: 1}
