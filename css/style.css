@@ -58,8 +58,10 @@ body{
 }
 
 .app .quiz-box h1{
+  margin: 0;
+  padding: 0;    
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 8vw;
   font-weight: bold;
   -webkit-animation: question 1.5s ease alternate infinite;
   animation: question 1.5s ease alternate infinite;
