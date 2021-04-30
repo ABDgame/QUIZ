@@ -67,7 +67,7 @@ body{
   font-weight: bold;
   -webkit-animation: question 1.5s ease alternate infinite;
   animation: question 1.5s ease alternate infinite;
-  background: linear-gradient(45deg, #086d35, #00ff72);
+  background: url(C.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
