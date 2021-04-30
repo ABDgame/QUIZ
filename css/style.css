@@ -26,12 +26,14 @@ body{
    /*justify-content: space-between;  INSERIDO 26/04/2021*/
    /*flex-wrap: wrap;  INSERIDO 26/04/2021 */
    margin: 60px auto;
-   backdrop-filter:blur(10px); /*INSERIDO 27-04-2021*/
-   background-color: rgba(91, 128, 86, 0.5);
+   backdrop-filter:blur(4px); /*MODIFICADO 30-04-2021*/
+   background: rgba(255, 255, 255, 0.2);/*MODIFICADO 30-04-2021*/
    padding: 10px 50px 50px 50px;
-   border-radius: 50px;
-   border: 2px solid #4BF1FA;
-   box-shadow: 5px 10px 1px #4BF1FA;
+   border-radius: 20px;
+   border: 1px solid rgba(255,255,255,0.5);
+   border-top: 1px solid rgba(255,255,255,0.5);
+   border-left: 1px solid rgba(255,255,255,0.5);
+   box-shadow: 0 15px 25px rgba(0,0,0,0.05);
    
 }
 
