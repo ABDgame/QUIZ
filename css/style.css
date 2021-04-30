@@ -27,7 +27,7 @@ body{
    /*flex-wrap: wrap;  INSERIDO 26/04/2021 */
    margin: 60px auto;
    backdrop-filter:blur(4px); /*MODIFICADO 30-04-2021*/
-   background: rgba(255, 255, 255, 0.2);/*MODIFICADO 30-04-2021*/
+   background: linear-gradient(45deg, #F05a4f, #f4c030);/*MODIFICADO 30-04-2021*/
    padding: 10px 50px 50px 50px;
    border-radius: 20px;
    border: 1px solid rgba(255,255,255,0.5);
