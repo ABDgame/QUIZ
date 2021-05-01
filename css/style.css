@@ -70,6 +70,8 @@ body{
   background: url(C.jpg);
   background-size: cover;
   background-clip: text;
+  border: 2px solid #4BF1FA; /* Add dia 01/05/2021*/
+  box-shadow: 5px 10px 1px #4BF1FA;
   -webkit-background-clip: text;
   color: transparent;
 }
