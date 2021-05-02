@@ -6,7 +6,7 @@ body{
       justify-content:center;
       align-items: center;
       min-height: 100vh;
-      background-image: url("background.jpg"); 
+      background-image: url("background.png"); 
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -27,7 +27,7 @@ body{
    /*flex-wrap: wrap;  INSERIDO 26/04/2021 */
    margin: 60px auto;
    backdrop-filter:blur(4px); /*MODIFICADO 30-04-2021*/
-   background: linear-gradient(45deg, #F05a4f, #f4c030);/*MODIFICADO 30-04-2021*/
+   background: rgba(255, 255, 255, 0.2);/*MODIFICADO 30-04-2021*/
    padding: 10px 50px 50px 50px;
    border-radius: 20px;
    border: 1px solid rgba(255,255,255,0.5);
@@ -70,8 +70,6 @@ body{
   background: url(C.jpg);
   background-size: cover;
   background-clip: text;
-  border: 2px solid #4BF1FA; /* Add dia 01/05/2021*/
-  box-shadow: 5px 10px 1px #4BF1FA;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -277,7 +275,6 @@ body{
        transform: scale(1);opacity: 1
   }
 }
-
 
 
  
