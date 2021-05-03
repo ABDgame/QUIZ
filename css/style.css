@@ -51,10 +51,11 @@ body{
 
 .app .quiz-box h4,
 .app .quiz-box h1{
-  font-size:30px;
-  font-weight: 400;
+  font-size: 8vw;
+  font-weight: bold;
   color:#FFFFFF;
-  margin:10px 0px; 
+  margin: 0;
+  padding: 0; 
   text-align: center;
   font-weight: bold;
 }
@@ -62,7 +63,7 @@ body{
 .app .quiz-box h1{
   margin: 0;
   padding: 0;    
-  text-transform: uppercase;
+  text-transform:uppercase;
   font-size: 8vw;
   font-weight: bold;
   -webkit-animation: question 1.5s ease alternate infinite;
