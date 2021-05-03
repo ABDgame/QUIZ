@@ -6,7 +6,7 @@ body{
       justify-content:center;
       align-items: center;
       min-height: 100vh;
-      background-image: url("background.png"); 
+      background-image: url("background.jpg"); 
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -70,6 +70,7 @@ body{
   background: url(C.jpg);
   background-size: cover;
   background-clip: text;
+  -webkit-text-stroke: 2px #4BF1FA;    
   -webkit-background-clip: text;
   color: transparent;
 }
