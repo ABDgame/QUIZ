@@ -285,13 +285,13 @@ const myApp=[
                    options[i].addEventListener("click",function(){
                       const span=document.createElement("span");
                      if(this.id==that.app.structure[that.index].key){
-                         span.innerHTML="CORRETA";
+                         span.innerHTML="  =D  ";
                          this.classList.add("correta");
                          that.score++;
                          that.scoreBoard();
                       }
                       else{
-                          span.innerHTML="ERRADA";
+                          span.innerHTML="  =(  ";
                           this.classList.add("errada");
                       }
                       this.appendChild(span);
@@ -305,7 +305,7 @@ const myApp=[
                            // you can also show the correct answer when you click on wrong option
                            else if (that.optionEle.children[j].id==that.app.structure[that.index].key){
                                 var span2=document.createElement("span")
-                                span2.innerHTML="CORRETA";
+                                span2.innerHTML=" =P ";
                                 that.optionEle.children[j].appendChild(span2)
                                that.optionEle.children[j].classList.add("correta");
                           }
