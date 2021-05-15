@@ -25,7 +25,7 @@ body{
    /*display: flex;  INSERIDO 26/04/2021*/
    /*justify-content: space-between;  INSERIDO 26/04/2021*/
    /*flex-wrap: wrap;  INSERIDO 26/04/2021 */
-   margin: 60px auto;
+   margin: 0 auto;
    backdrop-filter:blur(4px); /*MODIFICADO 30-04-2021*/
    background: rgba(180,123,58,0.1);
    background: linear-gradient(10deg, rgba(180,123,58,0) 0%, rgba(155,85,16,0) 1%, rgba(219,132,10,0) 10%);
