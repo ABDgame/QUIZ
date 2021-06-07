@@ -139,6 +139,7 @@ body{
 }
 /*BOTÕES DAS IMAGENS*/
 .app .option-box button{
+     background: rgba(255, 255, 255, 0); /*ADD 07/06/2021*/
      position: relative; /*ADICIONADO 27/04/2021*/
      top: 10px;/*ADICIONADO 27/04/2021*/
      left: 10px;/*ADICIONADO 27/04/2021*/
@@ -149,10 +150,11 @@ body{
      display: flex; /*ADICIONADO 27/04/2021*/
      justify-content: center; /*ADICIONADO 27/04/2021*/
      align-items: center; /*ADICIONADO 27/04/2021*/
+     color: #FCF068;
      margin:10px;
      border:0;
      padding:0;
-     border-radius:4px;
+     border-radius:10px;
      overflow: hidden;
      cursor: pointer;
      animation: button 1s ease;  
