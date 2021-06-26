@@ -65,10 +65,12 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
+  position: absolute; /*26-06-2021*/
   font-weight: bold;
 }
 
 .app .quiz-box h1{
+  position: absolute;/*26-06-2021*/
   margin: 0;
   padding: 0;    
   text-transform: uppercase;
