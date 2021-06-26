@@ -65,24 +65,22 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
-  position: absolute; /*26-06-2021*/
   font-weight: bold;
 }
 
 .app .quiz-box h1{
-  position: absolute;/*26-06-2021*/
   margin: 0;
   padding: 0;    
   text-transform: uppercase;
   text-shadow: 0 1px 0 #fff, 0 1px 15px rgba(0,0,0,.2),0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #111, 0 5px 0 #111,
   0 6px 0 #111, 0 7px 0 #111, 0 20px 30px rgba(0,0,0,.10); /*ADD 09-05-2021*/
   font-size: clamp(2.75em, 2em + 9vw, 2.5em);
-  text-align: center;
   font-weight: bold;
   -webkit-animation: question 1.5s ease alternate infinite;
   animation: question 1.5s ease alternate infinite;
   background-color: #F4D03F;
   background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+  background: url(C.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
