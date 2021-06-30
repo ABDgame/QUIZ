@@ -350,7 +350,45 @@ const myApp=[
               else{
                 this.optionEle.innerHTML="<h1><img src='images/game.png'/><br> </h1>";
               }
-              
+              'use strict';
+
+// If set to true, the user must press
+// UP UP DOWN ODWN LEFT RIGHT LEFT RIGHT A B
+// to trigger the confetti with a random color theme.
+// Otherwise the confetti constantly falls.
+var onlyOnKonami = false;
+
+$(function() {
+  // Globals
+  var $window = $(window)
+    , random = Math.random
+    , cos = Math.cos
+    , sin = Math.sin
+    , PI = Math.PI
+    , PI2 = PI * 2
+    , timer = undefined
+    , frame = undefined
+    , confetti = [];
+  
+  var runFor = 2000
+  var isRunning = true
+  
+  setTimeout(() => {
+			isRunning = false
+	}, runFor);
+
+  // Settings
+  var konami = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+    , pointer = 0;
+
+  var particles = 150
+    , spread = 20
+    , sizeMin = 5
+    , sizeMax = 12 - sizeMin
+    , eccentricity = 10
+    , deviation = 100
+    , dxThetaMin = -.1
+    , dxThetaMax = -dxThetaMin - dxThetaMin
            }
      }
        // create object without onchange of select
