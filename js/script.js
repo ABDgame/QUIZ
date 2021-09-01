@@ -402,11 +402,11 @@ const myApp=[
        }
 
 
-      
+      //28-06-2021 - 2 Tentativa - SUMIU TUDO
       
  
      }
-    
+    // add 28 - 06 - 2021 - APARECEU DESTE A PRIMEIRA PÁGINA
       
 
        // create object without onchange of select
@@ -418,9 +418,6 @@ const myApp=[
 
      
 
-
-
-  
    
    
  
