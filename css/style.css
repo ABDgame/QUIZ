@@ -73,7 +73,7 @@ body{
 
 .app .quiz-box h1{
   
-  margin: 0 0 30px; /*add 14-06-2021*/
+  margin: 0; /*add 14-06-2021*/
   text-align: center; /*add 14-06-2021*/
   padding: 0;    
   text-transform: uppercase;
