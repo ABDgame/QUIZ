@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@500&display=swap&&effect=shadow-multiple');
 body{
       margin:0;
       padding:0;
       display:flex;
       justify-content:center;
       align-items: center;
+      /*min-height: 100vh;*/
       height: 100%;
       background-image: url("background.jpg"); 
       background-repeat: no-repeat;
@@ -14,22 +15,33 @@ body{
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Poppins', sans-serif;
 } 
   *{
-     box-sizing: border-box; 
+     box-sizing: border-box;
+     margin:0;
+     padding:0;
+     outline:none; 
 } 
 
 .app{
+   
+   /*height: 600px;*/
+   /*position: relative;  INSERIDO 26/04/2021*/
    max-width: 700px; 
+   /*display: flex;  INSERIDO 26/04/2021*/
+    /*justify-content: space-between; INSERIDO 26/04/2021*/
+   /*flex-wrap: wrap;  INSERIDO 26/04/2021 */
    margin: 0 auto;
    background-color: rgba(75, 241, 250, 0.3);
    padding: 10px 50px 50px 50px;
    border-radius: 50px;
+   /*border: 2px solid rgba(75,241,250,1); 29-05-2021*/
    border-top: 2px solid rgba(75,241,250,1);
    border-left: 2px solid rgba(75,241,250,1);
    border: 2px solid #4BF1FA;
    box-shadow: 5px 10px 1px #4BF1FA;   
+   /*box-shadow: 0 15px 25px rgba(75,241,250,1); 29-05-2021*/
    
 }
 
@@ -42,38 +54,43 @@ body{
   
   flex-basis: 100%;
   max-width: 100%;
+  padding:8vw;
   margin: 0;
   padding: 0;
    
   
 }
 
-.app .quiz-box h4, 
+.app .quiz-box h4,
 .app .quiz-box h1{
+  font-size: 10em; /*clamp(1.75em, 1em + 9vw, 2.5em);*/
   color:#FFFFFF;
-  font-size: 10em; 
-  position: relative; 
-  margin:0; 
+  margin:0 0 30px; /* add 14-06-2021*/
   padding: 0;
   text-align: center;
   font-weight: bold;
-  width:100%; 
-  justify-content:center; 
-  align-items:flex-start; 
 }
 
 .app .quiz-box h1{
-  position: relative;
-  margin: 0;
-  padding: 0;
-  justify-content:center; 
-  align-items:flex-start; 
-  text-align: center;  
+  
+  margin: 0 0 30px; /*add 14-06-2021*/
+  text-align: center; /*add 14-06-2021*/
+  padding: 0;    
   text-transform: uppercase;
-  text-shadow: 0 1px 0 #fff, 0 1px 15px rgba(0,0,0,.2),0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #111, 0 5px 0 #111,
-  0 6px 0 #111, 0 7px 0 #111, 0 20px 30px rgba(0,0,0,.10); 
   font-size: clamp(2.75em, 2em + 9vw, 2.5em);
   font-weight: bold;
+  text-shadow: 0 1px 0 #fff,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);    
   -webkit-animation: question 1.5s ease alternate infinite;
   animation: question 1.5s ease alternate infinite;
   background-color: #F4D03F;
@@ -148,32 +165,21 @@ body{
      justify-content: center; 
      align-items: center; 
      color: #FCF068;
-     margin:10px;
+     margin:10px; 
      border:0;
      padding:0;
      border-radius:10px;
      overflow: hidden;
      cursor: pointer;
-     animation: button 1s ease; 
-     box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-     transition: scale(1.4);
-     z-index: 99;
-     
+     animation: button 1s ease;  
 }
-/*30-08-2021
-.app .option-box button:hover {
-  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-  transition: scale(1.4);
-  z-index: 99;
-} */
-
 @media screen and (max-width: 700px){ /* SUBTRAI 700 - 8 = 692*/
  
   .app {
   	position: relative;
-      width:100%;
-     flex-direction: column;
-     align-items: center;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
     
   }
 }
@@ -213,10 +219,19 @@ body{
   100%{transform: translateY(0%);}
 }
 
+/*Add 10-09-2021*/
 .app .option-box button.errada img{
     animation: imgErrada 1s ease;
+    transition: transform 0.5d ease;
+
+}
+.app .option-box button.errada img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+    
 }
 
+/*Add 10-09-2021*/
 @keyframes imgErrada{
   0%,40%,70%{
        transform: translateX(0px) scale(.8); 
@@ -228,6 +243,11 @@ body{
        transform: translateX(-10px) scale(.8); 
   }
 }
+.app .option-box button.errada img{
+    animation: imgErrada 1s ease;
+}
+
+
 
 .app .option-box button.correta span{
     position: absolute;
@@ -251,7 +271,16 @@ body{
 
 .app .option-box button.correta img{
     animation: imgCorreta 1s ease;
+    transition: transform 0.5d ease;
 }
+
+.app .option-box button.correta img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+    
+}
+/*Add 10-09-2021*/
+
 
 @keyframes imgCorreta{
   0%{
@@ -265,6 +294,7 @@ body{
   }
   
 }
+
 
 .app .option-box button.hide{
   animation: buttonHide 1s ease forwards;
@@ -360,6 +390,32 @@ body{
         }
 
 
+/*
 
+@-webkit-keyframes quizOver{
+  0%{
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8)
+  }
+  100%{
+       -webkit-transform: scale(1);
+       transform: scale(1);
+  }
+}
+@keyframes quizOver{
+   0%{
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8)
+  }
+  100%{
+        -webkit-transform: scale(1);
+        transform: scale(1)
+
+  }
+}
+
+
+*/
+ 
 
 
