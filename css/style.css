@@ -39,7 +39,7 @@ body{
    /*border: 2px solid rgba(75,241,250,1); 29-05-2021*/
    border-top: 2px solid rgba(75,241,250,1);
    border-left: 2px solid rgba(75,241,250,1);
-   border: 2px solid #4BF1FA;
+   border: 2px solid #4BF1FA;7
    box-shadow: 5px 10px 1px #4BF1FA;   
    /*box-shadow: 0 15px 25px rgba(75,241,250,1); 29-05-2021*/
    
@@ -73,17 +73,17 @@ body{
 
 .app .quiz-box h1{
   
-  margin: 0; /*add 14-06-2021*/
+  margin: 0 0 30px; /*add 14-06-2021*/
   text-align: center; /*add 14-06-2021*/
   padding: 0;    
   text-transform: uppercase;
   font-size: clamp(2.75em, 2em + 9vw, 2.5em);
   font-weight: bold;
   text-shadow: 0 1px 0 #fff,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
+               0 2px 0 #000,
+               0 3px 0 #4BF1FA,
+               0 4px 0 #4BF1FA,
+               0 5px 0 #4BF1FA,
                0 6px 1px rgba(0,0,0,.1),
                0 0 5px rgba(0,0,0,.1),
                0 1px 3px rgba(0,0,0,.3),
@@ -226,7 +226,7 @@ body{
 
 }
 .app .option-box button.errada img:hover{
-    transform: scale(1.5);
+    transform: rotate(-10deg) scale(1.5);/* 30-10-2021 */
     cursor: zoom-in;
     
 }
@@ -275,7 +275,7 @@ body{
 }
 
 .app .option-box button.correta img:hover{
-    transform: scale(1.5);
+    transform: rotate(-10deg) scale(1.5);/* 30-10-2021 */
     cursor: zoom-in;
     
 }
