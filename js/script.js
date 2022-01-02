@@ -2,7 +2,7 @@ const container=document.querySelector(".app");
 
 const myApp=[
               { 
-               type:" INICIAIS ",
+               type:" VOGAIS INICIAIS ",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -110,7 +110,7 @@ const myApp=[
               },
 
               { 
-                   type:" PALAVRAS  ",
+                   type:" VOGAIS PALAVRAS ",
                    msg:" ",
                    path:"images/vogais",
                    structure:[
@@ -415,6 +415,9 @@ const myApp=[
       function load(ele) {
         const app1=new App(myApp[ele.value],container)
       }
+
+
+
 
      
 
