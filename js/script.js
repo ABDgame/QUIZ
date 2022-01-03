@@ -539,9 +539,743 @@ const myApp=[
                               {question:"CO",options:['CAMISETA.jpg','CUPIDO.jpg','CONFEITEIRO.jpg','CERCA.jpg'],key:2}
                         
                        ]
+                },
+              { 
+
+                   type:"LETRA C | PALAVRAS ",
+                   msg:" ",
+                   path:"images/vogais",
+                   structure:[
+                              {question:"CADERNO",options:['COCA.jpg','CADERNO.jpg','CUBO.jpg','CORTINA.jpg'],key:1},
+
+                              {question:"COCA",options:['CADERNO.jpg','CUBO.jpg','CAMISETA.jpg','COCA.jpg'],key:3},
+
+                              {question:"CAMISETA",options:['CUBO.jpg','CAMISETA.jpg','CUPIDO.jpg','CORTINA.jpg'],key:1},  
+
+                              {question:"CUBO",options:['CUBO.jpg','CORTINA.jpg','CAMISETA.jpg','CARAMUJO.jpg'],key:0},
+                        
+                              {question:"CAMARÃO",options:['CORTINA.jpg','CORACAO.jpg','CEGONHA.jpg','CAMARAO.jpg'],key:3},                                                                           
+
+                              {question:"CUPIDO",options:['CUPIDO.jpg','COZINHA.jpg','CABRITO.jpg','CENTOPEIA.jpg'],key:0},
+
+                              {question:"CORTINA",options:['CABANA.jpg','CANOA.jpg','CORTINA.jpg','CAMINHAO.jpg'],key:2},
+
+                              {question:"CANOA",options:['CONFEITEIRO.jpg','CANOA.jpg','CORACAO.jpg','COLMEIA.jpg'],key:1},
+
+                              {question:"CORAÇÃO",options:['CORACAO.jpg','CAMINHAO.jpg','CARNEIRO.jpg','CATAVENTO.jpg'],key:0},
+  
+                              {question:"CAMINHÃO",options:['COROA.jpg','CORTINA.jpg','CAMINHAO.jpg','COUVEFLOR.jpg'],key:2},
+                        
+                              {question:"COROA",options:['CAMINHAO.jpg','CASA.jpg','CANOA.jpg','COROA.jpg'],key:3},
+                                                                                
+                              {question:"CANHÃO",options:['CANHAO.jpg','COROA.jpg','COELHO.jpg','CORTINA.jpg'],key:0},
+
+                              {question:"COLMÉIA",options:['CANGURU.jpg','CENOURA.jpg','COLMEIA.jpg','CEGONHA.jpg'],key:2},
+
+                              {question:"CANGURU",options:['COCO.jpg','CUBO.jpg','COROA.jpg','CANGURU.jpg'],key:3},
+
+                              {question:"CABANA",options:['COELHO.jpg','CABANA.jpg','COBRA.jpg','COLAR.jpg'],key:1},
+
+                              {question:"COCÔ",options:['COCO.jpg','CABRITO.jpg','CARROSSEL.jpg','CATAVENTO.jpg'],key:0},
+
+                              {question:"CABRITO",options:['CORTINA.jpg','CABRITO.jpg','CIRCO.jpg','CORUJA.jpg'],key:1},
+
+                              {question:"COUVE-FLOR",options:['CARROSSEL.jpg','CASA.jpg','COUVEFLOR.jpg','CAMALEAO.jpg'],key:2},       
+                                              
+                              {question:"CACHOEIRA",options:['CESTA.jpg','CENTOPEIA.jpg','COGUMELOS.jpg','CACHOEIRA.jpg'],key:3},
+
+                              {question:"COELHO",options:['COELHO.jpg','CENOURA.jpg','CIRCO.jpg','CALCA.jpg'],key:0},
+                           
+                              {question:"CALOR",options:['COGUMELOS.jpg','CEREJAS.jpg','CALOR.jpg','CENOURA.jpg'],key:2},                               
+
+                              {question:"CORUJA",options:['CEREJAS.jpg','CORUJA.jpg','CAMALEAO.jpg','CAVALO.jpg'],key:1},                       
+                          
+                              {question:"CARROSSEL",options:['CEREAL.jpg','CIRCO.jpg','CIGANA.jpg','CARROSSEL.jpg'],key:3},
+
+                              {question:"COLAR",options:['CAVALO.jpg','CATAVENTO.jpg','COLAR.jpg','CAMALEAO.jpg'],key:2},
+                           
+                              {question:"CAMA",options:['COLAR.jpg','CAMA.jpg','CESTA.jpg','CEBOLA.jpg'],key:1},
+
+                              {question:"COBRA",options:['COBRA.jpg','CASACO.jpg','CEGONHA.jpg','CARROSSEL.jpg'],key:0}, 
+
+                              {question:"CAMALEÃO",options:['CENTOPEIA.jpg','COGUMELOS.jpg','CORTINA.jpg','CAMALEAO.jpg'],key:3},
+
+                              {question:"CESTA",options:['CESTA.jpg','CAMISETA.jpg','CORDEIRO.jpg','CADEIRA.jpg'],key:0},
+
+                              {question:"CIRCO",options:['CENTOPEIA.jpg','CATAVENTO.jpg','CIRCO.jpg','COCO.jpg'],key:2},
+
+                              {question:"CASA",options:['CESTA.jpg','CASA.jpg','CENTOPEIA.jpg','CORUJA.jpg'],key:1},
+
+                              {question:"COGUMELOS",options:['CATAVENTO.jpg','CARROSSEL.jpg','CASTELO.jpg','COGUMELOS.jpg'],key:3},
+ 
+                              {question:"CATAVENTO",options:['CUPIDO.jpg','CORUJA.jpg','CATAVENTO.jpg','CEREJAS.jpg'],key:2},
+
+                              {question:"CIGANA",options:['CIGANA.jpg','CASACO.jpg','CASTELO.jpg','CAMA.jpg'],key:0},
+
+                              {question:"CASACO",options:['CEREJAS.jpg','CASACO.jpg','CENTOPEIA.jpg','CORDEIRO.jpg'],key:1},
+
+                              {question:"CERCA",options:['CORUJA.jpg','CACHORRO.jpg','CERCA.jpg','CAMISETA.jpg'],key:2},
+                              
+                              {question:"CASTELO",options:['CONFEITEIRO.jpg','COLMEIA.jpg','CENTOPEIA.jpg','CASTELO.jpg'],key:3},
+
+                              {question:"CENTOPÉIA",options:['CENTOPEIA.jpg','CANGURU.jpg','CAVALO.jpg','CASA.jpg'],key:0},
+                              
+                              {question:"CACHORRO",options:['CEBOLA.jpg','CACHORRO.jpg','CERCA.jpg','CORDEIRO.jpg'],key:1},
+
+                              {question:"CEREAL",options:['CALCA.jpg','CABANA.jpg','CORUJA.jpg','CEREAL.jpg'],key:3},
+
+                              {question:"COZINHA",options:['CENOURA.jpg','COZINHA.jpg','CERCA.jpg','CASA.jpg'],key:1},
+
+                              {question:"CEREJAS",options:['CAMISETA.jpg','CASTELO.jpg','CEREJAS.jpg','CAVALO.jpg'],key:2},
+
+                              {question:"CORDEIRO",options:['CASTELO.jpg','CARANGUEJO.jpg','CARROSSEL.jpg','CORDEIRO.jpg'],key:3},
+
+                              {question:"CENOURA",options: ['CARROSSEL.jpg','CENOURA.jpg','CADEIRA.jpg','CAMISETA.jpg'],key:1},
+
+                              {question:"CALÇA",options:['CALCA.jpg','CEGONHA.jpg','COLAR.jpg','CORACAO.jpg'],key:0},
+
+                              {question:"CEGONHA",options:['CORACAO.jpg','CAVALO.jpg','CARANGUEJO.jpg','CEGONHA.jpg'],key:3},
+      
+                              {question:"CAVALO",options:['CENTOPEIA.jpg','CEGONHA.jpg','CAVALO.jpg','COZINHA.jpg'],key:2},
+
+                              {question:"CEBOLA",options:['CAMISETA.jpg','CEBOLA.jpg','CAMA.jpg','CASA.jpg'],key:1},
+
+                              {question:"CARANGUEJO",options:['CIRCO.jpg','CONFEITEIRO.jpg','COCO.jpg','CARANGUEJO.jpg'],key:3},
+
+                              {question:"CONFEITEIRO",options:['CAMISETA.jpg','CUPIDO.jpg','CONFEITEIRO.jpg','CERCA.jpg'],key:2},
+ 
+                              {question:"CADEIRA",options:['CADEIRA.jpg','CERCA.jpg','CENTOPEIA.jpg','CEBOLA.jpg'],key:0}
+
+                          ]
+                },
+              { 
+               type:" LETRA D | INICIAIS ",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                              {question:"DA",options:['DADOS.jpg','DIAMANTES.jpg','DUVIDAS.jpg','DENTADURA.jpg'],key:0},
+
+                              {question:"DE",options:['DARDO.jpg','DENTADURA.jpg','DIA.jpg','DALMATA.jpg'],key:1},
+                              
+                              {question:"DÁ",options:['DOIS.jpg','DESCANSO.jpg','DALMATA.jpg','DOENTE.jpg'],key:2},
+
+                              {question:"DE",options:['DOCES.jpg','DOMINO.jpg','DAMA.jpg','DEZEMBRO.jpg'],key:3},
+
+                              {question:"DA",options:['DEDOS.jpg','DAMA.jpg','DIGITAL.jpg','DIGITAR.jpg'],key:1},                                                                           
+                              
+                              {question:"DÚ",options:['DUVIDAS.jpg','DOBRADURA.jpg','DEGRAUS.jpg','DESERTO.jpg'],key:0},
+                              
+                              {question:"DO",options:['DUENDE.jpg','DANCA.jpg','DOIS.jpg','DESTRUIDA.jpg'],key:2},
+                              
+                              {question:"DA",options:['DEZ.jpg','DESERTO.jpg','DESENHO.jpg','DANCA.jpg'],key:3},
+                              
+                              {question:"DE",options:['DESCANSO.jpg','DARDO.jpg','DIA.jpg','DANONE.jpg'],key:0},
+                              
+                              {question:"DA",options:['DOMADOR.jpg','DANONE.jpg','DOZE.jpg','DIRIGIR.jpg'],key:1},
+                              
+                              {question:"DO ",options:['DIRIGIR.jpg','DARDO.jpg','DOMINO.jpg','DENTISTA.jpg'],key:2},
+                              
+                              {question:"DA",options:['DOUTORA.jpg','DENTADURA.jpg','DEPRESSA.jpg','DARDO.jpg'],key:3},
+                              
+                              {question:"DO",options:['DENTE.jpg','DIPLOMA.jpg','DOCES.jpg','DINHEIRO.jpg'],key:2},
+                              
+                              {question:"DE",options:['DEDOS.jpg','DINHEIRO.jpg','DOBRADURA.jpg','DOBERMAN.jpg'],key:0},
+                              
+                              {question:"DO",options:['DESINFETANTE.jpg','DESINTUPIDOR.jpg','DUENDE.jpg','DOBERMAN.jpg'],key:3},
+                              
+                              {question:"DE",options:['DALMATA.jpg','DESERTO.jpg','DOBERMAN.jpg','DIGITAR.jpg'],key:1},
+                              
+                              {question:"DO",options:['DURA.jpg','DEZ.jpg','DOENTE.jpg','DEPRESSA.jpg'],key:2},       
+                              
+                              {question:"DE",options:['DUELO.jpg','DOCES.jpg','DOUTORA.jpg','DESINFETANTE.jpg'],key:3},
+                              
+                              {question:"DO",options:['DOBRADURA.jpg','DESANIMADA.jpg','DIRIGIR.jpg','DESCER.jpg'],key:0},
+                              
+                              {question:"DE",options:['DIA.jpg','DIAMANTES.jpg','DESINTUPIDOR.jpg','DOMINO.jpg'],key:2},                               
+
+                              {question:"DO",options:['DESPERDICAR.jpg','DOMADOR.jpg','DUENDE.jpg','DADOS.jpg'],key:1},                       
+                              
+                              {question:"DE",options:['DALMATA.jpg','DUELO.jpg','DIA.jpg','DESENHO.jpg'],key:3},
+
+                              {question:"DO",options:['DINOSSAURO.jpg','DENTE.jpg','DOUTORA.jpg','DANONE.jpg'],key:2},
+                              
+                              {question:"DE",options:['DOCES.jpg','DEPRESSA.jpg','DOMINGO.jpg','DIPLOMA.jpg'],key:1},
+
+                              {question:"DI",options:['DIPLOMA.jpg','DEGRAUS.jpg','DENTE.jpg','DETERGENTE.jpg'],key:0}, 
+                              
+                              {question:"DU",options:['DENTISTA.jpg','DENTE.jpg','DIAMANTES.jpg','DUENDE.jpg'],key:3},
+                              
+                              {question:"DE",options:['DIAMANTES.jpg','DEGRAUS.jpg','DIRIGIR.jpg','DIGITAL.jpg'],key:1},
+                              
+                              {question:"DI",options:['DIA.jpg','DENTE.jpg','DOCES.jpg','DESTRUIDA.jpg'],key:0},
+                              
+                              {question:"DE",options:['DINOSSAURO.jpg','DIGITAR.jpg','DENTISTA.jpg','DINHEIRO.jpg'],key:2},
+                              
+                              {question:"DI",options:['DOCES.jpg','DIGITAL.jpg','DESANIMADA.jpg','DESERTO.jpg'],key:1},
+                              
+                              {question:"DO",options:['DETETIVE.jpg','DADOS.jpg','DAMA.jpg','DOMINGO.jpg'],key:3},
+                              
+                              {question:"DE",options:['DURA.jpg','DINHEIRO.jpg','DESANIMADA.jpg','DIAMANTES.jpg'],key:2},
+                              
+                              {question:"DI",options:['DIRIGIR.jpg','DALMATA.jpg','DANONE.jpg','DOBRADURA.jpg'],key:0},
+                              
+                              {question:"DE",options:['DUELO.jpg','DINOSSAURO.jpg','DETERGENTE.jpg','DOCES.jpg'],key:2},
+                              
+                              {question:"DU",options:['DINHEIRO.jpg','DURA.jpg','DESPERDICAR.jpg','DEPRESSA.jpg'],key:1},
+                              
+                              {question:"DE",options:['DOUTORA.jpg','DOMADOR.jpg','DETETIVE.jpg','DOENTE.jpg'],key:2},
+                              
+                              {question:"DI",options:['DANCA.jpg','DADOS.jpg','DESCANSO.jpg','DINHEIRO.jpg'],key:3},
+                              
+                              {question:"DE",options:['DESPERDICAR.jpg','DOZE.jpg','DOMADOR.jpg','DIGITAL.jpg'],key:0},
+                              
+                              {question:"DI",options:['DOZE.jpg','DINOSSAURO.jpg','DEZ.jpg','DURA.jpg'],key:1},
+                              
+                              {question:"DE",options:['DOIS.jpg','DUELO.jpg','DIVERTIDA.jpg','DESTRUIDA.jpg'],key:3},
+                              
+                              {question:"DI",options:['DIAMANTES.jpg','DESCANSO.jpg','DENTE.jpg','DAMA.jpg'],key:0},
+                              
+                              {question:"DE",options:['DUVIDAS.jpg','DENTE.jpg','DALMATA.jpg','DUELO.jpg'],key:1},
+                              
+                              {question:"DI",options:['DESPENSA.jpg','DEGRAUS.jpg','DESTRUIDA.jpg','DIGITAR.jpg'],key:3},
+                              
+                              {question:"DE",options:['DOCES.jpg','DESPERTADOR.jpg','DIVERTIDA.jpg','DINOSSAURO.jpg'],key:1},
+                              
+                              {question:"DE",options:['DOUTORA.jpg','DOMINO.jpg','DUVIDAS.jpg','DEZ.jpg'],key:3},
+                              
+                              {question:"DU",options:['DUELO.jpg','DEVAGAR.jpg','DEPRESSA.jpg','DESINTUPIDOR.jpg'],key:0},
+                              
+                              {question:"DO",options:['DEZ.jpg','DEDOS.jpg','DOZE.jpg','DADOS.jpg'],key:2},
+                              
+                              {question:"DE",options:['DADOS.jpg','DEVAGAR.jpg','DINOSSAURO.jpg','DIA.jpg'],key:1},
+                              
+                              {question:"DI",options:['DIVERTIDA.jpg','DOBERMAN.jpg','DESCANSO.jpg','DESENHO.jpg'],key:0},
+
+                              {question:"DE",options:['DIPLOMA.jpg','DANONE.jpg','DESPENSA.jpg','DOBRADURA.jpg'],key:2}
+                   ]
               },
+               {
+
+               type:" LETRA D | PALAVRAS ",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                              {question:"DIPLOMA",options:['DIPLOMA.jpg','DEGRAUS.jpg','DESPERDICAR.jpg','DETERGENTE.jpg'],key:0}, 
+                              
+                              {question:"DUENDE",options:['DENTISTA.jpg','DENTE.jpg','DIAMANTES.jpg','DUENDE.jpg'],key:3},
+                              
+                              {question:"DEGRAUS",options:['DIAMANTES.jpg','DEGRAUS.jpg','DIRIGIR.jpg','DIGITAL.jpg'],key:1},
+                              
+                              {question:"DIA",options:['DIA.jpg','DENTE.jpg','DOCES.jpg','DESTRUIDA.jpg'],key:0},
+                              
+                              {question:"DÁLMATA",options:['DOIS.jpg','DESCANSO.jpg','DALMATA.jpg','DOENTE.jpg'],key:2},
+                              
+                              {question:"DESCANSO",options:['DESCANSO.jpg','DARDO.jpg','DIA.jpg','DANONE.jpg'],key:0},
+                              
+                              {question:"DEZEMBRO",options:['DOCES.jpg','DOMINO.jpg','DAMA.jpg','DEZEMBRO.jpg'],key:3},
+                              
+                              {question:"DAMA",options:['DEDOS.jpg','DAMA.jpg','DIGITAL.jpg','DIGITAR.jpg'],key:1},
+                              
+                              {question:"DADOS",options:['DADOS.jpg','DIAMANTES.jpg','DUVIDAS.jpg','DENTADURA.jpg'],key:0},
+                              
+                              {question:"DENTADURA",options:['DARDO.jpg','DENTADURA.jpg','DIA.jpg','DALMATA.jpg'],key:1},
+                              
+                              {question:"DOMINÓ ",options:['DIRIGIR.jpg','DARDO.jpg','DOMINO.jpg','DENTISTA.jpg'],key:2},
+                              
+                              {question:"DANÇA",options:['DEZ.jpg','DESERTO.jpg','DESENHO.jpg','DANCA.jpg'],key:3},
+                              
+                              {question:"DOMADOR",options:['DESPERDICAR.jpg','DOMADOR.jpg','DUENDE.jpg','DADOS.jpg'],key:1},                       
+                              
+                              {question:"DESENHO",options:['DALMATA.jpg','DUELO.jpg','DIA.jpg','DESENHO.jpg'],key:3},
+                              
+                              {question:"DOUTORA",options:['DENTE.jpg','DESPERDICAR.jpg','DOUTORA.jpg','DANONE.jpg'],key:2},
+                              
+                              {question:"DEPRESSA",options:['DOCES.jpg','DEPRESSA.jpg','DOMINGO.jpg','DIPLOMA.jpg'],key:1},
+                              
+                              {question:"DÚVIDAS",options:['DUVIDAS.jpg','DOBRADURA.jpg','DEGRAUS.jpg','DESERTO.jpg'],key:0},
+                              
+                              {question:"DOIS",options:['DENTE.jpg','DANCA.jpg','DOIS.jpg','DESTRUIDA.jpg'],key:2},
+                              
+                              {question:"DANONE",options:['DOMADOR.jpg','DANONE.jpg','DOZE.jpg','DIRIGIR.jpg'],key:1},
+                              
+                              {question:"DARDO",options:['DOUTORA.jpg','DENTADURA.jpg','DEPRESSA.jpg','DARDO.jpg'],key:3},
+                              
+                              {question:"DOENTE",options:['DURA.jpg','DEZ.jpg','DOENTE.jpg','DEPRESSA.jpg'],key:2},       
+                              
+                              {question:"DESINFETANTE",options:['DOBRADURA.jpg','DOCES.jpg','DOUTORA.jpg','DESINFETANTE.jpg'],key:3},
+                              
+                              {question:"DOCES",options:['DENTE.jpg','DIPLOMA.jpg','DOCES.jpg','DINHEIRO.jpg'],key:2},
+                              
+                              {question:"DEDOS",options:['DEDOS.jpg','DINHEIRO.jpg','DOBRADURA.jpg','DOBERMAN.jpg'],key:0},
+                              
+                              {question:"DOBERMAN",options:['DESINFETANTE.jpg','DESINTUPIDOR.jpg','DUENDE.jpg','DOBERMAN.jpg'],key:3},
+                              
+                              {question:"DESERTO",options:['DALMATA.jpg','DESERTO.jpg','DOBERMAN.jpg','DIGITAR.jpg'],key:1},
+                              
+                              {question:"DOBRADURA",options:['DOBRADURA.jpg','DESANIMADA.jpg','DIRIGIR.jpg','DESCER.jpg'],key:0},
+                              
+                              {question:"DESINTUPIDOR",options:['DIA.jpg','DIAMANTES.jpg','DESINTUPIDOR.jpg','DOMINO.jpg'],key:2},
+                              
+                              {question:"DEZ",options:['DETERGENTE.jpg','DOUTORA.jpg','DUVIDAS.jpg','DEZ.jpg'],key:3},
+                              
+                              {question:"DUELO",options:['DUELO.jpg','DEVAGAR.jpg','DEPRESSA.jpg','DESINTUPIDOR.jpg'],key:0},
+                              
+                              {question:"DOZE",options:['DEZ.jpg','DEDOS.jpg','DOZE.jpg','DADOS.jpg'],key:2},
+                              
+                              {question:"DEVAGAR",options:['DESPERTADOR.jpg','DEVAGAR.jpg','DINOSSAURO.jpg','DIA.jpg'],key:1},
+                              
+                              {question:"DIVERTIDA",options:['DIVERTIDA.jpg','DESPENSA.jpg','DESCANSO.jpg','DESENHO.jpg'],key:0},
+                              
+                              {question:"DENTISTA",options:['DINOSSAURO.jpg','DIGITAR.jpg','DENTISTA.jpg','DESCER.jpg'],key:2},
+                              
+                              {question:"DIGITAL",options:['DOCES.jpg','DIGITAL.jpg','DESANIMADA.jpg','DESERTO.jpg'],key:1},
+                              
+                              {question:"DOMINGO",options:['DETETIVE.jpg','DADOS.jpg','DAMA.jpg','DOMINGO.jpg'],key:3},
+                              
+                              {question:"DESANIMADA",options:['DURA.jpg','DINHEIRO.jpg','DESANIMADA.jpg','DIAMANTES.jpg'],key:2},
+                              
+                              {question:"DIRIGIR",options:['DIRIGIR.jpg','DALMATA.jpg','DANONE.jpg','DOBRADURA.jpg'],key:0},
+                              
+                              {question:"DETERGENTE",options:['DETETIVE.jpg','DEGRAUS.jpg','DETERGENTE.jpg','DOCES.jpg'],key:2},
+                              
+                              {question:"DURA",options:['DINHEIRO.jpg','DURA.jpg','DESPERDICAR.jpg','DEPRESSA.jpg'],key:1},
+                              
+                              {question:"DETETIVE",options:['DOUTORA.jpg','DOMADOR.jpg','DETETIVE.jpg','DOENTE.jpg'],key:2},
+                              
+                              {question:"DINHEIRO",options:['DANCA.jpg','DADOS.jpg','DESCANSO.jpg','DINHEIRO.jpg'],key:3},
+                              
+                              {question:"DESPERDÍÇAR",options:['DESPERDICAR.jpg','DESENHO.jpg','DOMADOR.jpg','DIGITAL.jpg'],key:0},
+                              
+                              {question:"DINOSSAURO",options:['DOZE.jpg','DINOSSAURO.jpg','DEZ.jpg','DURA.jpg'],key:1},
+                              
+                              {question:"DESPENSA",options:['DIPLOMA.jpg','DANONE.jpg','DESPENSA.jpg','DOBRADURA.jpg'],key:2},
+                              
+                              {question:"DESTRUÍDA",options:['DOIS.jpg','DUELO.jpg','DIVERTIDA.jpg','DESTRUIDA.jpg'],key:3},
+                              
+                              {question:"DIAMANTES",options:['DIAMANTES.jpg','DESCANSO.jpg','DENTE.jpg','DESINFETANTE.jpg'],key:0},
+                              
+                              {question:"DENTE",options:['DUVIDAS.jpg','DENTE.jpg','DEZEMBRO.jpg','DESANIMADA.jpg'],key:1},
+                              
+                              {question:"DIGITAR",options:['DESPENSA.jpg','DEGRAUS.jpg','DIGITAL.jpg','DIGITAR.jpg'],key:3},
+                              
+                              {question:"DESPERTADOR",options: ['DESANIMADA.jpg','DESPERTADOR.jpg','DIVERTIDA.jpg','DINOSSAURO.jpg'],key:1}                        
+
+                        ]
+              },
+              { 
+               type:" LETRA F | INICIAIS ",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                              {question:"FU",options:['FADA.jpg','FENO.jpg','FELINOS.jpg','FUTEBOL.jpg'],key:3},
+
+                              {question:"FA",options:['FOTO.jpg','FUMACA.jpg','FABRICA.jpg','FILA.jpg'],key:2},
+
+                              {question:"FO",options:['FACA.jpg','FORMIGA.jpg','FIVELA.jpg','FUSCA.jpg'],key:1},
+  
+                              {question:"FI",options:['FILE.jpg','FAMILIA.jpg','FORNO.jpg','FEIJAO.jpg'],key:0},
+
+                              {question:"FA",options:['FILHOTE.jpg','FIGO.jpg','FOSFOROS.jpg','FABULAS.jpg'],key:3},                                                                           
+
+                              {question:"FU",options:['FORTUNA.jpg','FORMATURA.jpg','FUSCA.jpg','FOGUETE.jpg'],key:2},
+
+                              {question:"FA",options:['FANTASMA.jpg','FOLHA.jpg','FOFOCA.jpg','FOCA.jpg'],key:0},
+
+                              {question:"FE",options:['FIGO.jpg','FAZENDA.jpg','FAXINA.jpg','FERRARI.jpg'],key:3},
+
+                              {question:"FO",options:['FEBRE.jpg','FAROL.jpg','FOCA.jpg','FELICIDADE.jpg'],key:2},
+  
+                              {question:"FI",options:['FESTA.jpg','FIVELA.jpg','FAROFA.jpg','FABRICA.jpg'],key:1},
+                        
+                              {question:"FE ",options:['FIVELA.jpg','FANTASIA.jpg','FAZENDEIRO.jpg','FERRADURA.jpg'],key:3},
+                                                                                
+                              {question:"FA",options:['FAROL.jpg','FILHOTE.jpg','FOFOCA.jpg','FESTA.jpg'],key:0},
+
+                              {question:"FO",options:['FUMACA.jpg','FUNIL.jpg','FORMATURA.jpg','FUTEBOL.jpg'],key:2},
+
+                              {question:"FA",options:['FACA.jpg','FERRARI.jpg','FORNO.jpg','FOGUEIRA.jpg'],key:0},
+
+                              {question:"FO",options:['FAMILIA.jpg','FACA.jpg','FORTUNA.jpg','FUMACA.jpg'],key:2},
+
+                              {question:"FU",options:['FANTOCHES.jpg','FUMACA.jpg','FESTA.jpg','FERIMENTO.jpg'],key:1},
+
+                              {question:"FI",options:['FEIJAO.jpg','FEBRE.jpg','FILA.jpg','FOCA.jpg'],key:2},       
+                                              
+                              {question:"FE",options:['FOFOCA.jpg','FOGAO.jpg','FOLHA.jpg','FELICIDADE.jpg'],key:3},
+
+                              {question:"FO",options:['FOSFOROS.jpg','FAROL.jpg','FELICIDADE.jpg','FUNIL.jpg'],key:0},
+                           
+                              {question:"FA",options:['FUSCA.jpg','FOSFOROS.jpg','FAMILIA.jpg','FELINOS.jpg'],key:2},                               
+
+                              {question:"FI",options:['FOGUEIRA.jpg','FILHOTE.jpg','FOCA.jpg','FOLHA.jpg'],key:1},                       
+                          
+                              {question:"FA",options:['FERRARI.jpg','FERIMENTO.jpg','FILE.jpg','FANTOCHES.jpg'],key:3},
+
+                              {question:"FO",options:['FAROFA.jpg','FELICIDADE.jpg','FOTO.jpg','FAMILIA.jpg'],key:2},
+                           
+                              {question:"FA",options:['FERIAS.jpg','FADA.jpg','FORTUNA.jpg','FUMACA.jpg'],key:1},
+
+                              {question:"FE",options:['FESTA.jpg','FILHOTE.jpg','FOFOCA.jpg','FOGAO.jpg'],key:0}, 
+
+                              {question:"FA",options:['FUNIL.jpg','FERIAS.jpg','FOGAO.jpg','FAZENDA.jpg'],key:3},
+
+                              {question:"FU",options:['FELICIDADE.jpg','FUNIL.jpg','FERIAS.jpg','FILHOTE.jpg'],key:1},
+
+                              {question:"FO",options:['FOGUEIRA.jpg','FANTASIA.jpg','FANTASMA.jpg','FILE.jpg'],key:0},
+
+                              {question:"FI",options:['FANTOCHES.jpg','FOTO.jpg','FIGO.jpg','FACA.jpg'],key:2},
+
+                              {question:"FE",options:['FARINHA.jpg','FERIMENTO.jpg','FADA.jpg','FIVELA.jpg'],key:1},
+
+                              {question:"FÁ",options:['FEIJAO.jpg','FOSFOROS.jpg','FUTEBOL.jpg','FABULAS.jpg'],key:3},
+ 
+                              {question:"FO",options:['FILHOTE.jpg','FAZENDEIRO.jpg','FOGUETE.jpg','FANTASIA.jpg'],key:2},
+
+                              {question:"FE",options:['FEBRE.jpg','FORNO.jpg','FIVELA.jpg','FABULAS.jpg'],key:0},
+
+                              {question:"FO",options:['FAROL.jpg','FILA.jpg','FOGAO.jpg','FERRADURA.jpg'],key:2},
+
+                              {question:"FE",options:['FAXINA.jpg','FEIJAO.jpg','FAMILIA.jpg','FABRICA.jpg'],key:1},
+
+                              {question:"FA",options:['FANTASIA.jpg','FUTEBOL.jpg','FEIRANTE.jpg','FORMIGA.jpg'],key:0},
+
+                              {question:"FO",options:['FUMACA.jpg','FESTA.jpg','FONE.jpg','FILE.jpg'],key:2},
+                              
+                              {question:"FA",options:['FAROFA.jpg','FEBRE.jpg','FUNIL.jpg','FORTUNA.jpg'],key:0},
+
+                              {question:"FE",options:['FAXINA.jpg','FELINOS.jpg','FAROESTE.jpg','FIGO.jpg'],key:1},
+
+                              {question:"FA",options:['FOSFOROS.jpg','FORTE.jpg','FORMIGA.jpg','FARAO.jpg'],key:3},
+
+                              {question:"FO",options:['FAMILIA.jpg','FACA.jpg','FARINHA.jpg','FORNO.jpg'],key:3},
+
+                              {question:"FA",options:['FENO.jpg','FARINHA.jpg','FORMATURA.jpg','FOGUETE.jpg'],key:1},
+
+                              {question:"FO",options:['FORTE.jpg','FELINOS.jpg','FERIMENTO.jpg','FENO.jpg'],key:0},
+
+                              {question:"FÉ",options:['FOGAO.jpg','FERIAS.jpg','FOSFOROS.jpg','FADA.jpg'],key:1},
+
+                              {question:"FO",options:['FUMACA.jpg','FESTA.jpg','FOCA.jpg','FILE.jpg'],key:2},
+
+                              {question:"FE",options:['FANTASMA.jpg','FARAO.jpg','FILHOTE.jpg','FEIRANTE.jpg'],key:3},
+
+                              {question:"FO",options:['FABULAS.jpg','FAROESTE.jpg','FANTOCHES.jpg','FOLHA.jpg'],key:3},
+
+                              {question:"FA",options:['FAROESTE.jpg','FORMIGA.jpg','FUSCA.jpg','FERRADURA.jpg'],key:0},
+
+                              {question:"FO",options:['FIVELA.jpg','FOFOCA.jpg','FAXINA.jpg','FANTASIA.jpg'],key:1},
+
+                              {question:"FA",options:['FERRARI.jpg','FORTUNA.jpg','FAXINA.jpg','FUMACA.jpg'],key:2}
+ 
+                   ]
+               },
+               {
+
+               type:" LETRA F | PALAVRAS ",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                              {question:"FUTEBOL",options:['FADA.jpg','FENO.jpg','FELINOS.jpg','FUTEBOL.jpg'],key:3},
+
+                              {question:"FÁBRICA",options:['FOTO.jpg','FUMACA.jpg','FABRICA.jpg','FILA.jpg'],key:2},
+
+                              {question:"FORMIGA",options:['FACA.jpg','FORMIGA.jpg','FIVELA.jpg','FUSCA.jpg'],key:1},
+  
+                              {question:"FILÉ",options:['FILE.jpg','FAMILIA.jpg','FORNO.jpg','FEIJAO.jpg'],key:0},
+
+                              {question:"FÁBULAS",options:['FILHOTE.jpg','FIGO.jpg','FOSFOROS.jpg','FABULAS.jpg'],key:3},                                                                           
+
+                              {question:"FUSCA",options:['FORTUNA.jpg','FORMATURA.jpg','FUSCA.jpg','FOGUETE.jpg'],key:2},
+
+                              {question:"FANTASMA",options:['FANTASMA.jpg','FOLHA.jpg','FOFOCA.jpg','FOCA.jpg'],key:0},
+
+                              {question:"FERRARI",options:['FIGO.jpg','FAZENDA.jpg','FAXINA.jpg','FERRARI.jpg'],key:3},
+
+                              {question:"FUMAÇA",options:['FEBRE.jpg','FOTO.jpg','FUMACA.jpg','FELICIDADE.jpg'],key:2},
+  
+                              {question:"FIVELA",options:['FESTA.jpg','FIVELA.jpg','FAROFA.jpg','FABRICA.jpg'],key:1},
+                        
+                              {question:"FERRADURA",options:['FIVELA.jpg','FANTASIA.jpg','FAZENDEIRO.jpg','FERRADURA.jpg'],key:3},
+                                                                                
+                              {question:"FAROL",options:['FAROL.jpg','FILHOTE.jpg','FELINOS.jpg','FESTA.jpg'],key:0},
+
+                              {question:"FORMATURA",options:['FUMACA.jpg','FUNIL.jpg','FORMATURA.jpg','FUTEBOL.jpg'],key:2},
+
+                              {question:"FACA",options:['FACA.jpg','FERRARI.jpg','FORNO.jpg','FOGUEIRA.jpg'],key:0},
+
+                              {question:"FORTUNA",options:['FAMILIA.jpg','FACA.jpg','FORTUNA.jpg','FUMACA.jpg'],key:2},
+
+                              {question:"FUMAÇA",options:['FANTOCHES.jpg','FUMACA.jpg','FESTA.jpg','FERIMENTO.jpg'],key:1},
+
+                              {question:"FILA",options:['FEIJAO.jpg','FEBRE.jpg','FILA.jpg','FOCA.jpg'],key:2},       
+                                              
+                              {question:"FELICIDADE",options:['FOFOCA.jpg','FOGAO.jpg','FOLHA.jpg','FELICIDADE.jpg'],key:3},
+
+                              {question:"FÓSFOROS",options:['FOSFOROS.jpg','FAROL.jpg','FELICIDADE.jpg','FUNIL.jpg'],key:0},
+                           
+                              {question:"FAMÍLIA",options:['FUSCA.jpg','FOSFOROS.jpg','FAMILIA.jpg','FELINOS.jpg'],key:2},                               
+
+                              {question:"FELINOS",options:['FOGUEIRA.jpg','FELINOS.jpg','FOCA.jpg','FOLHA.jpg'],key:1},                       
+                          
+                              {question:"FANTOCHES",options:['FERRARI.jpg','FERIMENTO.jpg','FILE.jpg','FANTOCHES.jpg'],key:3},
+
+                              {question:"FOTO",options:['FAROFA.jpg','FELICIDADE.jpg','FOTO.jpg','FAMILIA.jpg'],key:2},
+                           
+                              {question:"FADA",options:['FERIAS.jpg','FADA.jpg','FORTUNA.jpg','FUMACA.jpg'],key:1},
+
+                              {question:"FESTA",options:['FESTA.jpg','FILHOTE.jpg','FOFOCA.jpg','FOGAO.jpg'],key:0}, 
+
+                              {question:"FAZENDA",options:['FUNIL.jpg','FERIAS.jpg','FOGAO.jpg','FAZENDA.jpg'],key:3},
+
+                              {question:"FUNIL",options:['FELICIDADE.jpg','FUNIL.jpg','FERIAS.jpg','FILHOTE.jpg'],key:1},
+
+                              {question:"FOGUEIRA",options:['FOGUEIRA.jpg','FANTASIA.jpg','FANTASMA.jpg','FILE.jpg'],key:0},
+
+                              {question:"FIGO",options:['FANTOCHES.jpg','FOTO.jpg','FIGO.jpg','FACA.jpg'],key:2},
+
+                              {question:"FERIMENTO",options:['FARINHA.jpg','FERIMENTO.jpg','FADA.jpg','FIVELA.jpg'],key:1},
+
+                              {question:"FOCA",options:['FUMACA.jpg','FESTA.jpg','FOCA.jpg','FILE.jpg'],key:2},
+
+                              {question:"FÁBULAS",options:['FEIJAO.jpg','FOSFOROS.jpg','FUTEBOL.jpg','FABULAS.jpg'],key:3},
+ 
+                              {question:"FOGUETE",options:['FELINOS.jpg','FAZENDEIRO.jpg','FOGUETE.jpg','FANTASIA.jpg'],key:2},
+
+                              {question:"FEBRE",options:['FEBRE.jpg','FORNO.jpg','FIVELA.jpg','FABULAS.jpg'],key:0},
+
+                              {question:"FOGÃO",options:['FAROL.jpg','FILA.jpg','FOGAO.jpg','FERRADURA.jpg'],key:2},
+
+                              {question:"FEIJÃO",options:['FAXINA.jpg','FEIJAO.jpg','FAMILIA.jpg','FABRICA.jpg'],key:1},
+
+                              {question:"FANTASIA",options:['FANTASIA.jpg','FUTEBOL.jpg','FEIRANTE.jpg','FORMIGA.jpg'],key:0},
+
+                              {question:"FONE",options:['FUMACA.jpg','FESTA.jpg','FONE.jpg','FILE.jpg'],key:2},
+                              
+                              {question:"FEIRANTE",options:['FANTASMA.jpg','FARAO.jpg','FILHOTE.jpg','FEIRANTE.jpg'],key:3},
+
+                              {question:"FAROFA",options:['FAROFA.jpg','FEBRE.jpg','FUNIL.jpg','FORTUNA.jpg'],key:0},
+
+                              {question:"FILHOTE",options:['FERRARI.jpg','FILHOTE.jpg','FERIAS.jpg','FOLHA.jpg'],key:1},
+
+                              {question:"FARAÓ",options:['FOSFOROS.jpg','FORTE.jpg','FORMIGA.jpg','FARAO.jpg'],key:3},
+
+                              {question:"FORNO",options:['FAMILIA.jpg','FACA.jpg','FARINHA.jpg','FORNO.jpg'],key:3},
+
+                              {question:"FARINHA",options:['FENO.jpg','FARINHA.jpg','FORMATURA.jpg','FOGUETE.jpg'],key:1},
+
+                              {question:"FORTE",options:['FORTE.jpg','FELINOS.jpg','FERIMENTO.jpg','FENO.jpg'],key:0},
+
+                              {question:"FÉRIAS",options:['FOGAO.jpg','FERIAS.jpg','FOSFOROS.jpg','FADA.jpg'],key:1},
+
+                              {question:"FOLHA",options:['FABULAS.jpg','FAROESTE.jpg','FANTOCHES.jpg','FOLHA.jpg'],key:3},
+
+                              {question:"FAROESTE",options:['FAROESTE.jpg','FORMIGA.jpg','FUSCA.jpg','FERRADURA.jpg'],key:0},
+
+                              {question:"FOFOCA",options: ['FIVELA.jpg','FOFOCA.jpg','FAXINA.jpg','FANTASIA.jpg'],key:1},
+
+                              {question:"FAXINA",options:['FERRARI.jpg','FORTUNA.jpg','FAXINA.jpg','FUMACA.jpg'],key:2}
+ 
+                        ]
+              },
+              { 
+               type:"LETRA G | INICIAIS ",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                           {question:"GA",options:['GULOSEIMAS.jpg','GOLFE.jpg','GIGANTE.jpg','GALINHA.jpg'],key:3},
+
+                           {question:"GA",options:['GIRAFA.jpg','GATO.jpg','GELATINA.jpg' ,'GIRASSOL.jpg'],key:1},
+
+                           {question:"GI",options:['GIZ.jpg','GORILA.jpg','GOTA.jpg','GARFO.jpg'],key:0},
+ 
+                           {question:"GA",options:['GELEIA.jpg','GOLFINHOS.jpg','GALO.jpg','GIGANTE.jpg'],key:2},
+                     
+                           {question:"GÊ",options:['GOIABA.jpg' ,'GULOSEIMAS.jpg','GARRAFA.jpg','GENIO.jpg'],key:3},
+
+                           {question:"GA",options:['GAVETAS.jpg' ,'GINASTICA.jpg','GEMEAS.jpg','GELADEIRA.jpg'],key:0},
+                              
+                           {question:"GI",options:['GANGORRA.jpg','GOLA.jpg','GILETE.jpg','GELO.jpg'],key:2},
+                              
+                           {question:"GA",options:['GINCANA.jpg','GAIVOTA.jpg','GELEIA.jpg','GIRASSOL.jpg'],key:1},
+                            
+                           {question:"GE",options:['GOLFE.jpg','GAVIAO.jpg','GAVETAS.jpg','GELO.jpg'],key:3},
+
+                           {question:"GA",options:['GARCA.jpg','GORILA.jpg','GOLFINHOS.jpg','GEMEAS.jpg'],key:0},   
+                              
+                           {question:"GU",options:['GOTA.jpg','GOLEIRO.jpg','GULOSEIMAS.jpg','GOLFE.jpg'],key:2},
+
+                           {question:"GE",options:['GIGANTE.jpg','GELATINA.jpg','GIZ.jpg','GIRAFA.jpg'],key:1},
+
+                           {question:"GA",options:['GELEIA.jpg','GINASTICA.jpg','GELADEIRA.jpg','GAIOLA.jpg'],key:3},
+                           
+                           {question:"GÊ",options:['GEMEAS.jpg','GARAGEM.jpg','GOLFE.jpg', 'GIRASSOL.jpg',],key:0},
+
+                           {question:"GA",options:['GORILA.jpg','GOLFE.jpg','GARRAFA.jpg','GEMA.jpg'],key:2},
+
+                           {question:"GA",options:['GEMA.jpg','GINCANA.jpg','GIZ.jpg','GALHO.jpg'],key:3},
+
+                           {question:"GO",options:['GOLFE.jpg','GULOSEIMAS.jpg','GIRAFA.jpg','GANGORRA.jpg'],key:0},                           
+
+                           {question:"GA",options:['GELO.jpg','GANSO.jpg','GEMA.jpg','GILETE.jpg'],key:1},
+                              
+                           {question:"GE",options:['GINCANA.jpg','GAVETAS.jpg','GELEIA.jpg' ,'GOMA.jpg'],key:2},
+ 
+                           {question:"GA",options:['GANGORRA.jpg','GOLFE.jpg','GORILA.jpg','GIRASSOL.jpg'],key:0},
+
+                           {question:"GI",options:['GARAGEM.jpg','GELEIA.jpg','GOLFE.jpg', 'GIRAFA.jpg'],key:3},
+
+                           {question:"GA",options:['GORILA.jpg','GAROTO.jpg','GULOSEIMAS.jpg','GINASTICA.jpg'],key:1},
+
+                           {question:"GO",options:['GAIOLA.jpg','GALO.jpg','GOIABA.jpg','GALINHA.jpg'],key:2},
+                              
+                           {question:"GI",options:['GINASTICA.jpg','GELADEIRA.jpg','GELATINA.jpg','GELEIA.jpg'],key:0},
+                              
+                           {question:"GO",options: ['GULOSEIMAS.jpg', 'GORILA.jpg','GARFO.jpg','GARRAFA.jpg'],key:1},
+
+                           {question:"GA",options:['GELADEIRA.jpg','GINCANA.jpg','GIRAFA.jpg','GALOCHA.jpg'],key:3},
+
+                           {question:"GO",options:['GANGORRA.jpg','GILETE.jpg','GOLEIRO.jpg','GEMA.jpg'],key:2},
+                               
+                           {question:"GA",options:['GAVIAO.jpg','GOLFE.jpg','GOTA.jpg','GULOSEIMAS.jpg'],key:0},
+                              
+                           {question:"GO",options:['GELATINA.jpg','GOLFINHOS.jpg','GULOSEIMAS.jpg' ,'GELADEIRA.jpg'],key:1},
+
+                           {question:"GA",options:['GOMA.jpg','GIRASSOL.jpg','GARAGEM.jpg','GINCANA.jpg'],key:2},
+
+                           {question:"GI",options:['GOTA.jpg','GAVETAS.jpg','GAVIAO.jpg','GIRASSOL.jpg'],key:3},
+
+                           {question:"GÊ",options:['GENIO.jpg','GIRAFA.jpg','GINCANA.jpg','GALHO.jpg'],key:0},
+                             
+                           {question:"GO",options:['GALINHA.jpg','GOTA.jpg','GULOSEIMAS.jpg','GEMEAS.jpg'],key:1},
+
+                           {question:"GA",options:['GENIO.jpg','GEMA.jpg','GOLFE.jpg','GAMBA.jpg'],key:3},
+                              
+                           {question:"GE",options:['GIRASSOL.jpg','GOIABA.jpg','GELADEIRA.jpg','GIGANTE.jpg'],key:2},
+
+                           {question:"GA",options:['GAROTA.jpg','GIGANTE.jpg','GIRASSOL.jpg','GELO.jpg'],key:0},
+                           
+                           {question:"GI",options:['GIGANTE.jpg','GOMA.jpg','GENIO.jpg','GEMA.jpg'],key:0},
+
+                           {question:"GA",options:['GINCANA.jpg','GEMEAS.jpg','GAFANHOTO.jpg','GOMA.jpg'],key:2},
+                             
+                           {question:"GO",options:['GOMA.jpg','GULOSEIMAS.jpg','GAVETAS.jpg','GAVIAO.jpg'],key:0},
+                             
+                           {question:"GA",options:['GELO.jpg','GIRAFA.jpg','GORILA.jpg','GARCONETE.jpg'],key:3},
+
+                           {question:"GO",options:['GANGORRA.jpg','GOLA.jpg','GAROTA.jpg','GAROTO.jpg'],key:1},
+
+                           {question:"GE",options:['GILETE.jpg','GARFO.jpg','GEMA.jpg','GARRAFA.jpg'],key:2},
+                              
+                           {question:"GI",options:['GINCANA.jpg','GORILA.jpg','GOMA.jpg','GOLA.jpg'],key:0},
+
+                           {question:"GA",options:['GOLA.jpg','GENIO.jpg','GULOSEIMAS.jpg','GARFO.jpg'],key:3}
+                          ]
+                }, 
+               { 
+                   type:" LETRA G | SÍLABAS ",
+                   msg:" ",
+                   path:"images/vogais",
+                   structure:[
+                              {question:"GALINHA",options:['GAVETAS.jpg','GALINHA.jpg','GALO.jpg','GARRAFA.jpg'],key:1},
+
+                              {question:"GATO",options:['GATO.jpg','GARRAFA.jpg','GAIOLA.jpg' ,'GALHO.jpg'],key:0},
+
+                              {question:"GIZ",options:['GOTA.jpg','GOLEIRO.jpg','GIZ.jpg','GOLA.jpg'],key:2},
+ 
+                              {question:"GALO",options:['GEMA.jpg','GARAGEM.jpg','GAROTA.jpg','GALO.jpg'],key:3},
+                     
+                              {question:"GÊNIO",options:['GENIO.jpg' ,'GANGORRA.jpg','GARRAFA.jpg','GALHO.jpg'],key:0},
+
+                              {question:"GAVETAS",options:['GAIVOTA.jpg' ,'GANGORRA.jpg','GAVETAS.jpg','GALHO.jpg'],key:2},
+                              
+                              {question:"GILETE",options:['GAVIAO.jpg','GILETE.jpg','GANGORRA.jpg','GOLFE.jpg'],key:1},
+                              
+                              {question:"GAIVOTA",options:['GANGORRA.jpg','GAMBA.jpg','GALO.jpg','GAIVOTA.jpg'],key:3},
+                            
+                              {question:"GELO",options:['GELO.jpg','GELADEIRA.jpg','GIGANTE.jpg','GIRASSOL.jpg'],key:0},
+
+                              {question:"GARÇA",options:['GALHO.jpg','GIRASSOL.jpg','GIRAFA.jpg','GARCA.jpg'],key:3},   
+                              
+                              {question:"GULOSEIMAS",options:['GOTA.jpg','GULOSEIMAS.jpg','GARRAFA.jpg','GOLEIRO.jpg'],key:1},
+
+                              {question:"GELATINA",options:['GIRASSOL.jpg','GELEIA.jpg','GELATINA.jpg','GIGANTE.jpg'],key:2},
+
+                              {question:"GAIOLA",options:['GAIOLA.jpg','GOIABA.jpg','GOLFINHOS.jpg','GOLEIRO.jpg'],key:0},
+                           
+                              {question:"GÊMEAS",options:['GORILA.jpg','GOLFINHOS.jpg','GEMEAS.jpg', 'GIRASSOL.jpg',],key:2},
+
+                              {question:"GARRAFA",options:['GIRASSOL.jpg','GARRAFA.jpg','GIRAFA.jpg','GELADEIRA.jpg'],key:1},
+
+                              {question:"GALHO",options:['GALHO.jpg','GIRASSOL.jpg','GIRAFA.jpg','GOLFINHOS.jpg'],key:0},
+
+                              {question:"GOTA",options:['GANGORRA.jpg','GOTA.jpg','GALOCHA.jpg','GAROTA.jpg'],key:1},                           
+
+                              {question:"GANSO",options:['GALHO.jpg','GIRASSOL.jpg','GANSO.jpg','GOLFINHOS.jpg'],key:2},
+                              
+                              {question:"GELÉIA",options:['GELEIA.jpg','GANSO.jpg','GALO.jpg' ,'GAIVOTA.jpg'],key:0},
+ 
+                              {question:"GANGORRA",options:['GALHO.jpg','GIRASSOL.jpg','GIRAFA.jpg','GANGORRA.jpg'],key:3},
+
+                              {question:"GIRAFA",options:['GIRAFA.jpg','GANGORRA.jpg','GAROTO.jpg', 'GOIABA.jpg'],key:0},
+
+                              {question:"GAROTO",options:['GOLFINHOS.jpg','GOIABA.jpg','GAROTO.jpg','GIRASSOL.jpg'],key:2},
+
+                              {question:"GOIABA",options:['GOIABA.jpg','GIRASSOL.jpg','GELADEIRA.jpg','GAVETAS.jpg'],key:0},
+                              
+                              {question:"GINÁSTICA",options:['GALHO.jpg','GINASTICA.jpg','GIRAFA.jpg','GOLFINHOS.jpg'],key:1},
+                              
+                              {question:"GORILA",options: ['GALHO.jpg', 'GALINHA.jpg','GATO.jpg','GORILA.jpg'],key:3},
+
+                              {question:"GALOCHA",options:['GIRASSOL.jpg','GALOCHA.jpg','GIRAFA.jpg','GORILA.jpg'],key:1},
+
+                              {question:"GOLEIRO",options:['GALOCHA.jpg','GALHO.jpg','GAVIAO.jpg','GOLEIRO.jpg'],key:3},
+                               
+                              {question:"GAVIÃO",options:['GALHO.jpg','GINCANA.jpg','GAVIAO.jpg','GANGORRA.jpg'],key:2},
+                              
+                              {question:"GOLFINHOS",options:['GOLFINHOS.jpg','GAIVOTA.jpg','GAVETAS.jpg' ,'GARFO.jpg'],key:0},
+
+                              {question:"GARAGEM",options:['GOLA.jpg','GORILA.jpg','GELADEIRA.jpg','GARAGEM.jpg'],key:3},
+
+                              {question:"GIRASSOL",options:['GELO.jpg','GELEIA.jpg','GIRASSOL.jpg','GARCONETE.jpg'],key:2},
+
+                              {question:"GÊNIO",options:['GAMBA.jpg','GENIO.jpg','GATO.jpg','GAVIAO.jpg'],key:1},
+                             
+                              {question:"GOLFE",options:['GOLFINHOS.jpg','GOLEIRO.jpg','GOLFE.jpg','GEMA.jpg'],key:2},
+
+                              {question:"GAMBÁ",options:['GELADEIRA.jpg','GAMBA.jpg','GENIO.jpg','GEMEAS.jpg'],key:1},
+                              
+                              {question:"GELADEIRA",options:['GELADEIRA.jpg','GIRASSOL.jpg','GINCANA.jpg','GULOSEIMAS.jpg'],key:0},
+
+                              {question:"GAROTA",options:['GEMEAS.jpg','GIGANTE.jpg','GOLFINHOS.jpg','GAROTA.jpg'],key:3},
+                           
+                              {question:"GIGANTE",options:['GANGORRA.jpg','GOTA.jpg','GIGANTE.jpg','GAROTA.jpg'],key:2},
+
+                              {question:"GAFANHOTO",options:['GELADEIRA.jpg','GAFANHOTO.jpg','GELO.jpg','GEMEAS.jpg'],key:1},
+                             
+                              {question:"GOMA",options:['GULOSEIMAS.jpg','GOLEIRO.jpg','GOTA.jpg','GOMA.jpg'],key:3},
+                             
+                              {question:"GARÇONETE",options:['GARCONETE.jpg','GIRASSOL.jpg','GEMEAS.jpg','GULOSEIMAS.jpg'],key:0},
+
+                              {question:"GOLA",options:['GARAGEM.jpg','GENIO.jpg','GOLA.jpg','GELEIA.jpg'],key:2},
+
+                              {question:"GEMA",options:['GOLFINHOS.jpg','GOLEIRO.jpg','GOTA.jpg','GEMA.jpg'],key:3},
+                              
+                              {question:"GINCANA",options:['GIZ.jpg','GINCANA.jpg','GORILA.jpg','GALOCHA.jpg'],key:1},
+
+                              {question:"GARFO",options:['GARFO.jpg','GATO.jpg','GALOCHA.jpg','GAFANHOTO.jpg'],key:0}
+
+              ]
+
+             },   
+
               
 
+  
+  
+  
+  
+  
+  
   ]
 
 
