@@ -324,6 +324,114 @@ const myApp=[
                         ]
               },
 
+             { 
+
+                   type:"LETRA B | PALAVRAS  ",
+                   msg:" ",
+                   path:"images/letraB",
+                   structure:[
+                               {question:"BALDE",options:['BULE.jpg','BONECA.jpg','BALDE.jpg','BOLICHE.jpg'],key:2},
+
+                               {question:"BATATA",options:['BETERRABA.jpg','BURRO.jpg','BOLA.jpg','BATATA.jpg'],key:3},
+
+                               {question:"BALA",options:['BALA.jpg','BELICHE.jpg','BERINJELA.jpg','BUQUE.jpg'],key:0},
+                        
+                               {question:"BARATA",options:['BOMBOM.jpg','BOTAO.jpg','BARATA.jpg','BISCOITO.jpg'],key:2},                      
+                           
+                               {question:"BARBEIRO",options:['BARBEIRO.jpg','BERMUDA.jpg','BOXE.jpg','BOMBEIRO.jpg'],key:0},
+
+                               {question:"BANANA",options:['BEBE.jpg','BANANA.jpg','BINOCULO.jpg','BEIJAFLOR.jpg'],key:1},
+                           
+                               {question:"BARCO",options:['BURRITO.jpg','BUDA.jpg','BIFE.jpg','BARCO.jpg'],key:3},                       
+
+                               {question:"BALEIA",options:['BALEIA.jpg','BIBLIOTECA.jpg','BULMERANGUE.jpg','BICICLETA.jpg'],key:0},
+
+                               {question:"BALANÇO",options:['BOCA.jpg','BOMBOM.jpg','BALANCO.jpg','BESOURO.jpg'],key:2},
+
+                               {question:"BARRIL",options:['BOLSA.jpg','BARRIL.jpg','BUQUE.jpg','BICO.jpg'],key:1},
+
+                               {question:"BASQUETE",options:['BERINJELA.jpg','BOTAO.jpg','BULE.jpg','BASQUETE.jpg'],key:3},
+
+                               {question:"BARRACA",options:['BARRACA.jpg','BOTAO.jpg','BUDA.jpg','BOMBOM.jpg'],key:0},
+
+                               {question:"BESOURO",options:['BIFE.jpg','BASQUETE.jpg','BESOURO.jpg','BALA.jpg'],key:2},
+
+                               {question:"BERINJELA",options:['BALANCO.jpg','BERINJELA.jpg','BICO.jpg','BATERIA.jpg'],key:1},
+
+                               {question:"BEXIGAS",options:['BEXIGAS.jpg','BOLACHA.jpg','BOLA.jpg','BINOCULO.jpg'],key:0},
+
+                               {question:"BETERRABA",options:['BISCOITO.jpg','BOLO.jpg','BETERRABA.jpg','BURRITO.jpg'],key:2},       
+                                              
+                               {question:"BANCO",options:['BANCO.jpg','BOLSA.jpg','BETERRABA.jpg','BULE.jpg'],key:0},
+                           
+                               {question:"BEIJA-FLOR",options:['BARATA.jpg','BURRO.jpg','BANCO.jpg','BEIJAFLOR.jpg'],key:3},
+
+                               {question:"BELICHE",options:['BORRACHA.jpg','BELICHE.jpg','BOTAO.jpg','BATEDEIRA.jpg'],key:1},                       
+                          
+                               {question:"BERMUDA",options:['BARRACA.jpg','BOCA.jpg','BERMUDA.jpg','BIBLIOTECA.jpg'],key:2},
+                           
+                               {question:"BINÓCULO",options:['BINOCULO.jpg','BOTA.jpg','BOLACHA.jpg','BAILARINA.jpg'],key:0},
+
+                               {question:"BATEDEIRA",options:['BESOURO.jpg','BATEDEIRA.jpg','BERMUDA.jpg','BIFE.jpg'],key:1},
+                           
+                               {question:"BOXE",options:['BARBEIRO.jpg','BUQUE.jpg','BEBE.jpg','BOXE.jpg'],key:3},
+
+                               {question:"BEBÊ",options:['BEBE.jpg','BOLSA.jpg','BOCA.jpg','BURRO.jpg'],key:0},
+
+                               {question:"BISCOITO",options:['BOLO.jpg','BISCOITO.jpg','BALA.jpg','BOLACHA.jpg'],key:1},                           
+
+                               {question:"BIFE",options:['BOLSA.jpg','BETERRABA.jpg','BATATA.jpg','BIFE.jpg'],key:3},
+
+                               {question:"BIGODE",options:['BANCO.jpg','BERMUDA.jpg','BIGODE.jpg','BOTAO.jpg'],key:2},
+
+                               {question:"BUMERANGUE",options:['BULMERANGUE.jpg','BELICHE.jpg','BICICLETA.jpg','BINOCULO.jpg'],key:0},
+
+                               {question:"BICICLETA",options:['BASQUETE.jpg','BICICLETA.jpg','BOLA.jpg','BOLICHE.jpg'],key:1},
+
+                               {question:"BIBLIOTECA",options:['BARATA.jpg','BORRACHA.jpg','BESOURO.jpg','BIBLIOTECA.jpg'],key:3},
+
+                               {question:"BULE",options:['BERINJELA.jpg','BULE.jpg','BOLO.jpg','BALA.jpg'],key:1},
+
+                               {question:"BOLSA",options:['BEBE.jpg','BIBLIOTECA.jpg','BOLSA.jpg','BATERIA.jpg'],key:2},
+                              
+                               {question:"BURRO",options:['BURRO.jpg','BORBOLETA.jpg','BOTAO.jpg','BOMBEIRO.jpg'],key:0},
+                              
+                               {question:"BORBOLETA",options:['BEXIGAS.jpg','BURRO.jpg','BARATA.jpg','BORBOLETA.jpg'],key:3},
+
+                               {question:"BOCA",options:['BELICHE.jpg','BOCA.jpg','BAILARINA.jpg','BARCO.jpg'],key:1},
+
+                               {question:"BOTA",options: ['BARCO.jpg','BEIJAFLOR.jpg','BUDA.jpg','BOTA.jpg'],key:3},
+
+                               {question:"BOTÃO",options:['BOTAO.jpg','BUDA.jpg','BURRITO.jpg','BATERIA.jpg'],key:0},
+      
+                               {question:"BOLICHE",options:['BUQUE.jpg','BOLICHE.jpg','BIFE.jpg','BARCO.jpg'],key:1},
+
+                               {question:"BICO",options:['BORRACHA.jpg','BEBE.jpg','BICO.jpg','BALANCO.jpg'],key:2},
+
+                               {question:"BUDA",options:['BIBLIOTECA.jpg','BAILARINA.jpg','BASQUETE.jpg','BUDA.jpg'],key:3},
+
+                               {question:"BURRITO",options:['BURRITO.jpg','BIFE.jpg','BOLO.jpg','BARRACA.jpg'],key:0},
+
+                               {question:"BOLA",options:['BARRACA.jpg','BOLA.jpg','BURRO.jpg','BINOCULO.jpg'],key:1},
+
+                               {question:"BOLACHA",options:['BULE.jpg','BIFE.jpg','BALA.jpg','BOLACHA.jpg'],key:3},
+
+                               {question:"BOTÃO",options:['BOTAO.jpg','BICICLETA.jpg','BERMUDA.jpg','BEXIGAS.jpg'],key:0},
+
+                               {question:"BORRACHA",options:['BEXIGAS.jpg','BESOURO.jpg','BORRACHA.jpg','BARATA.jpg'],key:2},
+
+                               {question:"BOLO",options:['BISCOITO.jpg','BOLO.jpg','BALA.jpg','BURRITO.jpg'],key:1},
+
+                               {question:"BOMBEIRO",options:['BOMBEIRO.jpg','BAILARINA.jpg','BASQUETE.jpg','BARBEIRO.jpg'],key:0},
+
+                               {question:"BOMBOM",options:['BISCOITO.jpg','BOMBOM.jpg','BALA.jpg','BETERRABA.jpg'],key:1},
+
+                               {question:"BUQUÊ",options:['BUQUE.jpg','BIGODE.jpg','BORBOLETA.jpg','BOLA.jpg'],key:0},
+    
+                               {question:"BONECA",options:['BULMERANGUE.jpg','BAILARINA.jpg','BONECA.jpg','BASQUETE.jpg'],key:2}
+
+                          ]
+              }
 
   ]
 
