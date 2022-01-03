@@ -219,7 +219,7 @@ const myApp=[
          { 
                type:"LETRA B | INICIAIS ",
                msg:" ",
-               path:"images/letraB",
+               path:"images/vogais",
                structure:[
                                {question:"BA",options:['BULE.jpg','BALDE.jpg','BONECA.jpg','BOLICHE.jpg'],key:1},
 
@@ -328,7 +328,7 @@ const myApp=[
 
                    type:"LETRA B | PALAVRAS  ",
                    msg:" ",
-                   path:"images/letraB",
+                   path:"images/vogais",
                    structure:[
                                {question:"BALDE",options:['BULE.jpg','BONECA.jpg','BALDE.jpg','BOLICHE.jpg'],key:2},
 
