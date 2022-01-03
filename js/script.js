@@ -2,7 +2,7 @@ const container=document.querySelector(".app");
 
 const myApp=[
               { 
-               type:"☆ VOGAIS ☆ INICIAIS",
+               type:":: VOGAIS :: INICIAIS",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -110,7 +110,7 @@ const myApp=[
               },
 
               { 
-                   type:"☆ VOGAIS ☆ PALAVRAS",
+                   type:":: VOGAIS :: PALAVRAS",
                    msg:" ",
                    path:"images/vogais",
                    structure:[
@@ -217,7 +217,7 @@ const myApp=[
                           ]
               },
          { 
-               type:"LETRA B | INICIAIS ",
+               type:":: B :: INICIAIS ",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -326,7 +326,7 @@ const myApp=[
 
              { 
 
-                   type:"LETRA B | PALAVRAS  ",
+                   type:":: B :: PALAVRAS  ",
                    msg:" ",
                    path:"images/vogais",
                    structure:[
@@ -434,7 +434,7 @@ const myApp=[
               },
 
              { 
-               type:"LETRA C | INICIAIS ",
+               type:":: C :: INICIAIS ",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -542,7 +542,7 @@ const myApp=[
                 },
               { 
 
-                   type:"LETRA C | PALAVRAS ",
+                   type:":: C :: PALAVRAS ",
                    msg:" ",
                    path:"images/vogais",
                    structure:[
@@ -649,7 +649,7 @@ const myApp=[
                           ]
                 },
               { 
-               type:" LETRA D | INICIAIS ",
+               type:":: D :: INICIAIS ",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -756,7 +756,7 @@ const myApp=[
               },
                {
 
-               type:" LETRA D | PALAVRAS ",
+               type:":: D :: PALAVRAS ",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -863,7 +863,7 @@ const myApp=[
                         ]
               },
               { 
-               type:" LETRA F | INICIAIS ",
+               type:":: F :: INICIAIS ",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -971,7 +971,7 @@ const myApp=[
                },
                {
 
-               type:" LETRA F | PALAVRAS ",
+               type:":: F :: PALAVRAS ",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -1078,7 +1078,7 @@ const myApp=[
                         ]
               },
               { 
-               type:"LETRA G | INICIAIS ",
+               type:":: G :: INICIAIS ",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -1172,7 +1172,7 @@ const myApp=[
                           ]
                 }, 
                { 
-                   type:" LETRA G | SÍLABAS ",
+                   type:":: G :: SÍLABAS ",
                    msg:" ",
                    path:"images/vogais",
                    structure:[
