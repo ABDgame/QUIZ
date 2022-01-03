@@ -2,7 +2,7 @@ const container=document.querySelector(".app");
 
 const myApp=[
               { 
-               type:"VOGAIS | INICIAIS",
+               type:"☆ VOGAIS ☆ INICIAIS",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -110,7 +110,7 @@ const myApp=[
               },
 
               { 
-                   type:"VOGAIS | PALAVRAS",
+                   type:"☆ VOGAIS ☆ PALAVRAS",
                    msg:" ",
                    path:"images/vogais",
                    structure:[
