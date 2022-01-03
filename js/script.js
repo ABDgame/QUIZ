@@ -537,10 +537,8 @@ const myApp=[
                               {question:"CA",options:['CADEIRA.jpg','CERCA.jpg','CENTOPEIA.jpg','CEBOLA.jpg'],key:0},
 
                               {question:"CO",options:['CAMISETA.jpg','CUPIDO.jpg','CONFEITEIRO.jpg','CERCA.jpg'],key:2}
- 
-                              
-
-                        ]
+                        
+                       ]
               }
 
   ]
