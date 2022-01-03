@@ -431,6 +431,116 @@ const myApp=[
                                {question:"BONECA",options:['BULMERANGUE.jpg','BAILARINA.jpg','BONECA.jpg','BASQUETE.jpg'],key:2}
 
                           ]
+              },
+
+             { 
+               type:"LETRA C | INICIAIS ",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                              {question:"CA",options:['CAMISETA.jpg','CUPIDO.jpg','CUBO.jpg','CORTINA.jpg'],key:0},
+
+                              {question:"CO",options:['CADERNO.jpg','CUBO.jpg','COCA.jpg','CAMISETA.jpg'],key:2},
+
+                              {question:"CA",options:['CORTINA.jpg','COCA.jpg','CUBO.jpg','CADERNO.jpg'],key:3},
+  
+                              {question:"CU",options:['CUBO.jpg','CORTINA.jpg','CAMISETA.jpg','CARAMUJO.jpg'],key:0},
+                        
+                              {question:"CA",options:['CORTINA.jpg','CORACAO.jpg','CEGONHA.jpg','CAMARAO.jpg'],key:3},                                                                           
+
+                              {question:"CU",options:['CUPIDO.jpg','COZINHA.jpg','CABRITO.jpg','CENTOPEIA.jpg'],key:0},
+
+                              {question:"CO",options:['CABANA.jpg','CANOA.jpg','CORTINA.jpg','CAMINHAO.jpg'],key:2},
+
+                              {question:"CA",options:['CONFEITEIRO.jpg','CANOA.jpg','CORACAO.jpg','COLMEIA.jpg'],key:1},
+
+                              {question:"CO",options:['CORACAO.jpg','CAMINHAO.jpg','CARNEIRO.jpg','CATAVENTO.jpg'],key:0},
+  
+                              {question:"CA",options:['COROA.jpg','CORTINA.jpg','CAMINHAO.jpg','COUVEFLOR.jpg'],key:2},
+                        
+                              {question:"CO",options:['CAMINHAO.jpg','CASA.jpg','CANOA.jpg','COROA.jpg'],key:3},
+                                                                                
+                              {question:"CA",options:['CANHAO.jpg','COROA.jpg','COELHO.jpg','CORTINA.jpg'],key:0},
+
+                              {question:"CO",options:['CANGURU.jpg','CENOURA.jpg','COLMEIA.jpg','CEGONHA.jpg'],key:2},
+
+                              {question:"CA",options:['COCO.jpg','CUBO.jpg','COROA.jpg','CANGURU.jpg'],key:3},
+
+                              {question:"CO",options:['COCO.jpg','CABRITO.jpg','CARROSSEL.jpg','CATAVENTO.jpg'],key:0},
+
+                              {question:"CA",options:['CORTINA.jpg','CABRITO.jpg','CIRCO.jpg','CORUJA.jpg'],key:1},
+
+                              {question:"CO",options:['CARROSSEL.jpg','CASA.jpg','COUVEFLOR.jpg','CAMALEAO.jpg'],key:2},       
+                                              
+                              {question:"CA",options:['CESTA.jpg','CENTOPEIA.jpg','COGUMELOS.jpg','CACHOEIRA.jpg'],key:3},
+
+                              {question:"CO",options:['COELHO.jpg','CENOURA.jpg','CIRCO.jpg','CALCA.jpg'],key:0},
+                           
+                              {question:"CA",options:['COGUMELOS.jpg','CEREJAS.jpg','CALOR.jpg','CENOURA.jpg'],key:2},                               
+
+                              {question:"CO",options:['CEREJAS.jpg','CORUJA.jpg','CAMALEAO.jpg','CAVALO.jpg'],key:1},                       
+                          
+                              {question:"CA",options:['CEREAL.jpg','CIRCO.jpg','CIGANA.jpg','CARROSSEL.jpg'],key:3},
+
+                              {question:"CO",options:['CAVALO.jpg','CATAVENTO.jpg','COLAR.jpg','CAMALEAO.jpg'],key:2},
+                           
+                              {question:"CA",options:['COLAR.jpg','CAMA.jpg','CESTA.jpg','CEBOLA.jpg'],key:1},
+
+                              {question:"CO",options:['COBRA.jpg','CASACO.jpg','CEGONHA.jpg','CARROSSEL.jpg'],key:0}, 
+
+                              {question:"CA",options:['CENTOPEIA.jpg','COGUMELOS.jpg','CORTINA.jpg','CAMALEAO.jpg'],key:3},
+
+                              {question:"CE",options:['CESTA.jpg','CAMISETA.jpg','CORDEIRO.jpg','CADEIRA.jpg'],key:0},
+
+                              {question:"CA",options:['COELHO.jpg','CABANA.jpg','COBRA.jpg','COLAR.jpg'],key:1},
+
+                              {question:"CI",options:['CENTOPEIA.jpg','CATAVENTO.jpg','CIRCO.jpg','COCO.jpg'],key:2},
+
+                              {question:"CA",options:['CESTA.jpg','CASA.jpg','CENTOPEIA.jpg','CORUJA.jpg'],key:1},
+
+                              {question:"CO",options:['CATAVENTO.jpg','CARROSSEL.jpg','CASTELO.jpg','COGUMELOS.jpg'],key:3},
+ 
+                              {question:"CA",options:['CUPIDO.jpg','CORUJA.jpg','CATAVENTO.jpg','CEREJAS.jpg'],key:2},
+
+                              {question:"CI",options:['CIGANA.jpg','CASACO.jpg','CASTELO.jpg','CAMA.jpg'],key:0},
+
+                              {question:"CA",options:['CEREJAS.jpg','CASACO.jpg','CENTOPEIA.jpg','CORDEIRO.jpg'],key:1},
+
+                              {question:"CE",options:['CORUJA.jpg','CACHORRO.jpg','CERCA.jpg','CAMISETA.jpg'],key:2},
+                              
+                              {question:"CA",options:['CONFEITEIRO.jpg','COLMEIA.jpg','CENTOPEIA.jpg','CASTELO.jpg'],key:3},
+
+                              {question:"CE",options:['CENTOPEIA.jpg','CANGURU.jpg','CAVALO.jpg','CASA.jpg'],key:0},
+                              
+                              {question:"CA",options:['CEBOLA.jpg','CACHORRO.jpg','CERCA.jpg','CORDEIRO.jpg'],key:1},
+
+                              {question:"CE",options:['CALCA.jpg','CABANA.jpg','CORUJA.jpg','CEREAL.jpg'],key:3},
+
+                              {question:"CA",options:['CALCA.jpg','CEGONHA.jpg','COLAR.jpg','CORACAO.jpg'],key:0},
+
+                              {question:"CO",options:['CENOURA.jpg','COZINHA.jpg','CERCA.jpg','CASA.jpg'],key:1},
+
+                              {question:"CE",options:['CAMISETA.jpg','CASTELO.jpg','CEREJAS.jpg','CAVALO.jpg'],key:2},
+
+                              {question:"CO",options:['CASTELO.jpg','CARANGUEJO.jpg','CARROSSEL.jpg','CORDEIRO.jpg'],key:3},
+
+                              {question:"CE",options: ['CARROSSEL.jpg','CENOURA.jpg','CADEIRA.jpg','CAMISETA.jpg'],key:1},
+
+                              {question:"CA",options:['CIRCO.jpg','CONFEITEIRO.jpg','COCO.jpg','CARANGUEJO.jpg'],key:3},
+
+                              {question:"CE",options:['CORACAO.jpg','CAVALO.jpg','CARANGUEJO.jpg','CEGONHA.jpg'],key:3},
+      
+                              {question:"CA",options:['CENTOPEIA.jpg','CEGONHA.jpg','CAVALO.jpg','COZINHA.jpg'],key:2},
+
+                              {question:"CE",options:['CAMISETA.jpg','CEBOLA.jpg','CAMA.jpg','CASA.jpg'],key:1},
+
+                              {question:"CA",options:['CADEIRA.jpg','CERCA.jpg','CENTOPEIA.jpg','CEBOLA.jpg'],key:0},
+
+                              {question:"CO",options:['CAMISETA.jpg','CUPIDO.jpg','CONFEITEIRO.jpg','CERCA.jpg'],key:2}
+ 
+                              
+
+                        ]
               }
 
   ]
