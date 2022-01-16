@@ -1324,7 +1324,7 @@ const myApp=[
               },
 
               { 
-               type:":: H :: SÍLABAS",
+               type:":: H :: PALAVRAS",
                msg:" ",
                path:"images/vogais",
                structure:[
@@ -1452,7 +1452,7 @@ const myApp=[
               },
 
               { 
-               type:":: J :: SÍLABAS",
+               type:":: J :: PALAVRAS",
                msg:" ",
                path:"images/vogais",
                structure:[
