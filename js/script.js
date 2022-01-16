@@ -1172,7 +1172,7 @@ const myApp=[
                           ]
                 }, 
                { 
-                   type:":: G :: SÍLABAS ",
+                   type:":: G :: PALAVRAS ",
                    msg:" ",
                    path:"images/vogais",
                    structure:[
