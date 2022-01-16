@@ -1264,10 +1264,261 @@ const myApp=[
 
                               {question:"GARFO",options:['GARFO.jpg','GATO.jpg','GALOCHA.jpg','GAFANHOTO.jpg'],key:0}
 
-              ]
+               ]
 
              },   
+            { 
+               type:":: H :: INICIAIS",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                           {question:"HI",options:['HOSPITAL.jpg','HARPA.jpg','HAMBURGUE.jpg','HIDRO.jpg'],key:3},
 
+                           {question:"HA",options:['HIDRANTE.jpg','HINO.jpg','HARPA.jpg','HIPOPOTAMO.jpg'],key:2},
+
+                           {question:"HE",options:['HELICOPTERO.jpg','HIDRANTE.jpg','HOTEL.jpg','HARPA.jpg'],key:0},
+ 
+                           {question:"HO",options:['HIGIENE.jpg','HELICOPTERO.jpg','HOSPITAL.jpg','HULK.jpg'],key:2},
+                     
+                           {question:"HI",options:['HIDRANTE.jpg','HUMANO.jpg','HARPA.jpg','HULK.jpg'],key:0},
+
+                           {question:"HE",options:['HIPOPOTAMO.jpg','HIGIENE.jpg','HARPA.jpg','HEROI.jpg'],key:3},
+                              
+                           {question:"HI",options:['HOTEL.jpg','HORTA.jpg','HIPOPOTAMO.jpg','HARRY.jpg'],key:2},
+                              
+                           {question:"HO",options:['HELLO-KITTY.jpg','HEROI.jpg','HULK.jpg','HORARIO.jpg'],key:3},
+                            
+                           {question:"HO",options:['HAMBURGUE.jpg','HORTA.jpg','HABILIDADE.jpg','HUMANO.jpg'],key:1},
+
+                           {question:"HA",options:['HARRY.jpg','HOMEM-ARANHA.jpg','HORTELA.jpg','HELLO-KITTY.jpg'],key:0},   
+                              
+                           {question:"HI",options:['HOTEL.jpg','HORTA.jpg','HIGIENE.jpg','HAMESTER.jpg'],key:2},
+
+                           {question:"HO",options:['HORTELA.jpg','HINO.jpg','HULK.jpg','HUMANO.jpg'],key:0},
+
+                           {question:"HA",options:['HORTA.jpg','HORTELA.jpg','HELICOPTERO.jpg','HAMESTER.jpg'],key:3},
+                           
+                           {question:"HU",options:['HUMANO.jpg','HAMBURGUE.jpg','HELICOPTERO.jpg','HOTEL.jpg'],key:0},
+
+                           {question:"HA",options:['HORARIO.jpg','HEROI.jpg','HAMBURGUE.jpg','HOTEL.jpg'],key:2},
+
+                           {question:"HO ",options:['HEROI.jpg','HIPOPOTAMO.jpg','HULK.jpg','HOMEM-ARANHA.jpg'],key:3},
+
+                           {question:"HE",options:['HEROI.jpg','HAMBURGUE.jpg','HOSPITAL.jpg','HORTA.jpg'],key:0},                           
+
+                           {question:"HE",options:['HARPA.jpg','HERCULES.jpg','HIPOPOTAMO.jpg','HULK.jpg'],key:1},
+                              
+                           {question:"HA",options:['HERCULES.jpg','HOMEM-ARANHA.jpg','HAVAIANAS.jpg' ,'HEROI.jpg'],key:2},
+ 
+                           {question:"HE",options:['HELLO-KITTY.jpg','HAMBURGUE.jpg','HARPA.jpg','HIPOPOTAMO.jpg'],key:0},
+
+                           {question:"HU",options:['HAMESTER.jpg','HORTELA.jpg','HOSPITAL.jpg','HULK.jpg'],key:3},
+
+                           {question:"HO",options:['HUMANO.jpg','HOTEL.jpg','HELLO-KITTY.jpg','HARRY.jpg'],key:1},
+
+                           {question:"HI",options:['HABILIDADE.jpg','HULK.jpg','HINO.jpg','HEROI.jpg'],key:2},
+                              
+                           {question:"HA",options:['HABILIDADE.jpg','HIPOPOTAMO.jpg','HOMEM-ARANHA.jpg','HOTEL.jpg'],key:0}
+                              
+                        ]
+              },
+
+              { 
+               type:":: H :: SÍLABAS",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                           {question:"HABILIDADE",options:['HAMESTER.jpg','HORARIO.jpg','HABILIDADE.jpg','HINO.jpg'],key:2},
+                          
+                           {question:"HAMESTER",options:['HINO.jpg','HIPOPOTAMO.jpg','HARPA.jpg','HAMESTER.jpg'],key:3},
+
+                           {question:"HELLO KITTY",options:['HORTELA.jpg','HELLO-KITTY.jpg','HORTA.jpg','HEROI.jpg'],key:1},
+
+                           {question:"HIENA",options:['HIENA.jpg','HELICOPTERO.jpg','HIDRANTE.jpg','HOSPITAL.jpg'],key:0},
+
+
+                           {question:"HIGIENE",options:['HOMEM-ARANHA.jpg','HIENA.jpg','HIGIENE.jpg','HORARIO.jpg'],key:2},
+
+                           {question:"HARPA",options:['HOTEL.jpg' ,'HARPA.jpg','HERCULES.jpg','HELLO-KITTY.jpg'],key:1},
+                           
+                           {question:"HORÁRIO",options:['HORARIO.jpg','HEROI.jpg','HULK.jpg','HAMBURGUE.jpg'],key:0},
+                           
+                           {question:"HUMANO",options:['HOTEL.jpg','HAMBURGUE.jpg','HELICOPTERO.jpg','HUMANO.jpg'],key:3},
+
+           
+                           {question:"HARRY POTTER",options:['HULK.jpg','HORTELA.jpg','HIENA.jpg','HARRY.jpg'],key:3},
+                           
+                           {question:"HELICÓPTERO",options:['HAMESTER.jpg','HOMEM-ARANHA.jpg','HELICOPTERO.jpg','HOSPITAL.jpg'],key:2},
+
+          
+                           {question:"HÉROI",options:['HEROI.jpg','HAMBURGUE.jpg','HIGIENE.jpg','HUMANO.jpg'],key:0},
+
+
+                           {question:"HULK",options:['HEROI.jpg','HORTELA.jpg','HULK.jpg','HORARIO.jpg'],key:2},
+
+                           {question:"HÉRCULES",options:['HERCULES.jpg','HIGIENE.jpg','HORTA.jpg','HIDRANTE.jpg'],key:0},
+
+                           {question:"HORTA",options:['HAVAIANAS.jpg','HIDRO.jpg','HEROI.jpg' ,'HORTA.jpg'],key:3},
+                           
+                           {question:"HIDRANTE",options:['HAMESTER.jpg','HIGIENE.jpg','HIDRANTE.jpg' ,'HORARIO.jpg'],key:2},
+
+                           {question:"HORTELÃ",options:['HOMEM-ARANHA.jpg','HORTELA.jpg','HIENA.jpg','HELICOPTERO.jpg'],key:1},
+
+
+                           {question:"HIPOPÓTAMO",options:['HAMBURGUE.jpg','HORARIO.jpg','HIPOPOTAMO.jpg','HOSPITAL.jpg'],key:2},
+
+                           {question:"HAMBÚRGUER",options:['HIDRANTE.jpg','HAVAIANAS.jpg','HIGIENE.jpg','HAMBURGUE.jpg'],key:3},
+
+                           {question:"HOTEL",options:['HOTEL.jpg','HOMEM-ARANHA.jpg','HEROI.jpg','HORTA.jpg'],key:0},
+
+                           {question:"HINO",options:['HOSPITAL.jpg','HINO.jpg','HOTEL.jpg','HORARIO.jpg'],key:1},
+
+                           {question:"HOSPITAL",options:['HIGIENE.jpg','HORTA.jpg','HUMANO.jpg','HOSPITAL.jpg'],key:3},
+
+                           {question:"HAVAIANAS",options:['HOTEL.jpg','HIPOPOTAMO.jpg','HAVAIANAS.jpg','HOMEM-ARANHA.jpg'],key:2},
+                 
+                           {question:"HIDRO",options:['HIDRO.jpg','HAVAIANAS.jpg','HIDRANTE.jpg','HOTEL.jpg'],key:0},
+                 
+                           {question:"HOMEM ARANHA",options:['HAMBURGUE.jpg','HOMEM-ARANHA.jpg','HIGIENE.jpg','HERCULES.jpg'],key:1}
+                        ]
+              },
+  
+             { 
+               type:":: J :: INICIAIS",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                           {question:"JA",options:['JACARE.jpg','JIBOIA.jpg','JOELHO.jpg','JUJUBA.jpg'],key:0},
+                          
+                           {question:"JI",options:['JUJUBA.jpg','JORNALISTAS.jpg','JOANINHA.jpg','JIPE.jpg'],key:3},
+
+                           {question:"JU",options:['JEANS.jpg','JUIZ.jpg','JARDINEIRO.jpg','JARDIM.jpg'],key:1},
+
+                           {question:"JU",options:['JOELHO.jpg','JANTAR.jpg','JUJUBA.jpg','JAQUETA.jpg'],key:2},
+                           
+                           {question:"JO",options:['JUIZ.jpg','JABUTICABA.jpg','JANELA.jpg','JOGADOR.jpg'],key:3},
+                            
+                           {question:"JA",options:['JUMENTO.jpg','JOELHO.jpg','JABUTI.jpg','JETSKI.jpg'],key:2},  
+
+                           {question:"JO",options:['JUJUBA.jpg','JORNALISTAS.jpg','JANTAR.jpg','JANELA.jpg'],key:1},
+                           
+                           {question:"JA",options:['JANELA.jpg','JUMENTO.jpg','JOANINHA.jpg','JOGADOR.jpg'],key:0},
+
+                           {question:"JU",options:['JAQUETA.jpg','JOELHO.jpg','JUMENTO.jpg','JANTAR.jpg'],key:2},
+
+                           {question:"JO",options:['JUBA.jpg','JUJUBA.jpg','JAULA.jpg','JORNAL.jpg'],key:3},
+                 
+                           {question:"JA",options:['JAVALI.jpg','JUMENTO.jpg','JOANINHA.jpg','JOELHO.jpg'],key:0},
+                 
+                           {question:"JO",options:['JEANS.jpg','JOANINHA.jpg','JARDIM.jpg', 'JUMENTO.jpg'],key:1},
+                           
+                           {question:"JU",options:['JARDINEIRO.jpg','JOANINHA.jpg','JAPAO.jpg','JUBA.jpg'],key:3},
+
+                           {question:"JA",options:['JARDINEIRO.jpg','JEANS.jpg','JOANINHA.jpg','JOELHO.jpg'],key:0},
+
+                           {question:"JE",options:['JIBOIA.jpg','JUDO.jpg','JOANINHA.jpg','JEANS.jpg'],key:3},
+
+                           {question:"JA",options:['JUJUBA.jpg','JOIAS.jpg','JAQUETA.jpg','JOELHO.jpg'],key:2},
+                           
+                           {question:"JA",options:['JUMENTO.jpg','JORNAL.jpg','JAPAO.jpg','JOIAS.jpg'],key:2},
+                            
+                           {question:"JA",options:['JOANINHA.jpg','JOGADOR.jpg','JUNINA.jpg','JARDIM.jpg'],key:3},
+                           
+                           {question:"JO",options:['JANGADA.jpg','JOELHO.jpg','JUNINA.jpg','JETSKI.jpg'],key:1},
+
+                           {question:"JA",options:['JIPE.jpg','JUJUBA.jpg','JEANS.jpg','JANTAR.jpg'],key:3},
+                           
+                           {question:"JI",options:['JABUTI.jpg','JIBOIA.jpg','JUMENTO.jpg','JETSKI.jpg'],key:1},
+                 
+                           {question:"JA",options:['JARRA.jpg','JEANS.jpg','JORNAL.jpg' ,'JUMENTO.jpg'],key:0},
+
+                           {question:"JU",options:['JOELHO.jpg','JAPAO.jpg','JUNINA.jpg','JOIAS.jpg'],key:2},
+
+                           {question:"JA",options:['JATO.jpg','JUNINA.jpg','JUMENTO.jpg','JIPE.jpg'],key:0},
+
+                           {question:"JO",options:['JEANS.jpg','JUDO.jpg','JETSKI.jpg','JOIAS.jpg'],key:3},
+
+                           {question:"JA",options:['JOGADOR.jpg','JOELHO.jpg','JABUTICABA.jpg','JIBOIA.jpg'],key:2},
+                           
+                           {question:"JA",options:['JAULA.jpg','JOANINHA.jpg','JETSKI.jpg','JUJUBA.jpg'],key:0},
+                           
+                           {question:"JE",options:['JANGADA.jpg','JOANINHA.jpg','JARDIM.jpg','JETSKI.jpg'],key:3},
+                           
+                           {question:"JA",options:['JOELHO.jpg','JOIAS.jpg','JANGADA.jpg','JUDO.jpg'],key:2},
+                           
+                           {question:"JU",options:['JABUTICABA.jpg','JUDO.jpg','JANELA.jpg','JEANS.jpg'],key:1}
+                   
+                          ]
+              },
+
+              { 
+               type:":: J :: SÍLABAS",
+               msg:" ",
+               path:"images/vogais",
+               structure:[
+                           {question:"JABUTI",options:['JABUTI.jpg','JOELHO.jpg','JUMENTO.jpg','JETSKI.jpg'],key:0},
+                 
+                           {question:"JIPE",options:['JUJUBA.jpg','JORNALISTAS.jpg','JOANINHA.jpg','JIPE.jpg'],key:3},
+                           
+                           {question:"JACARÉ",options:['JACARE.jpg','JANELA.jpg','JOELHO.jpg','JUJUBA.jpg'],key:0},
+
+                           {question:"JUIZ",options:['JEANS.jpg','JUIZ.jpg','JARDINEIRO.jpg','JARDIM.jpg'],key:1},
+                           
+                           {question:"JANGADA",options:['JOELHO.jpg','JANTAR.jpg','JANGADA.jpg','JAQUETA.jpg'],key:2},
+
+                           {question:"JUJUBA",options:['JOELHO.jpg','JANTAR.jpg','JUJUBA.jpg','JAQUETA.jpg'],key:2},
+
+                           {question:"JAVALI",options:['JAVALI.jpg','JEANS.jpg','JOANINHA.jpg','JOELHO.jpg'],key:0},
+                 
+                           {question:"JOGADOR",options:['JUIZ.jpg','JABUTICABA.jpg','JANELA.jpg','JOGADOR.jpg'],key:3},
+
+                           {question:"JORNALISTAS",options:['JAVALI.jpg','JORNALISTAS.jpg','JANTAR.jpg','JANELA.jpg'],key:1},
+                           
+                           {question:"JANELA",options:['JANELA.jpg','JUMENTO.jpg','JOANINHA.jpg','JABUTICABA.jpg'],key:0},
+
+                           {question:"JUMENTO",options:['JAQUETA.jpg','JOELHO.jpg','JUMENTO.jpg','JANTAR.jpg'],key:2},
+
+                           {question:"JOANINHA",options:['JEANS.jpg','JOANINHA.jpg','JARDIM.jpg', 'JUMENTO.jpg'],key:1},
+                           
+                           {question:"JUBA",options:['JARDINEIRO.jpg','JOANINHA.jpg','JAPAO.jpg','JUBA.jpg'],key:3},
+
+                           {question:"JARDINEIRO",options:['JARDINEIRO.jpg','JAQUETA.jpg','JOANINHA.jpg','JOELHO.jpg'],key:0},
+
+                           {question:"JEANS",options:['JIBOIA.jpg','JUDO.jpg','JOANINHA.jpg','JEANS.jpg'],key:3},
+
+                           {question:"JAQUETA",options:['JUJUBA.jpg','JANELA.jpg','JAQUETA.jpg','JOELHO.jpg'],key:2},
+
+                           {question:"JOELHO",options:['JOIAS.jpg','JOELHO.jpg','JUNINA.jpg','JANGADA.jpg'],key:1},
+
+                           {question:"JANTAR",options:['JAPAO.jpg','JACARE.jpg','JEANS.jpg','JANTAR.jpg'],key:3},
+                           
+                           {question:"JIBÓIA",options:['JABUTI.jpg','JUMENTO.jpg','JIBOIA.jpg','JETSKI.jpg'],key:2},  
+
+                           {question:"JARRA",options:['JARRA.jpg','JANTAR.jpg','JANELA.jpg' ,'JUMENTO.jpg'],key:0},
+
+                           {question:"JUNINA",options:['JOELHO.jpg','JAPAO.jpg','JUNINA.jpg','JOIAS.jpg'],key:2},
+
+                           {question:"JATO",options:['JATO.jpg','JANELA.jpg','JACARE.jpg','JIPE.jpg'],key:0},
+
+                           {question:"JÓIAS",options:['JEANS.jpg','JUDO.jpg','JAVALI.jpg','JOIAS.jpg'],key:3},
+
+                           {question:"JABUTICABA",options:['JANELA.jpg','JAQUETA.jpg','JABUTICABA.jpg','JARDINEIRO.jpg'],key:2},
+                           
+                           {question:"JAULA",options:['JAULA.jpg','JOANINHA.jpg','JETSKI.jpg','JUJUBA.jpg'],key:0},
+                           
+                           {question:"JET SKI",options:['JEANS.jpg','JOANINHA.jpg','JARDIM.jpg','JETSKI.jpg'],key:3},
+                            
+                           {question:"JAPÃO",options:['JUMENTO.jpg','JACARE.jpg','JAPAO.jpg','JAVALI.jpg'],key:2},
+                            
+                           {question:"JORNAL",options:['JORNAL.jpg','JOANINHA.jpg','JARDIM.jpg','JAULA.jpg'],key:0},
+
+                           {question:"JARDIM",options:['JANELA.jpg','JOGADOR.jpg','JANGADA.jpg','JARDIM.jpg'],key:3},
+                                           
+                           {question:"JUDÔ",options:['JABUTICABA.jpg','JUDO.jpg','JANELA.jpg','JEANS.jpg'],key:1}
+                        ]
+              }
+
+    
               
 
   
