@@ -362,9 +362,9 @@ body{
             display: block;
             margin: 60px auto;
             max-width: 128px;
-            filter: drop-shadow(0 0 2px #000);
-            transition: 0.5s;
-            animation: animate 2s linear infinite;
+            /*filter: drop-shadow(0 0 2px #000);*/
+            transition: 0.1s;
+            animation: animate 1s linear infinite;
         }
 
         @keyframes animate {
