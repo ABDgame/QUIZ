@@ -1516,9 +1516,9 @@ const myApp=[
                                            
                            {question:"JUDÔ",options:['JABUTICABA.jpg','JUDO.jpg','JANELA.jpg','JEANS.jpg'],key:1}
                         ]
-              }
+              },
  
-  ]
+  
    { 
                type:" :: K - L :: INICIAIS ",
                msg:" ",
@@ -1580,7 +1580,7 @@ const myApp=[
 
                            {question:"LE",options:['LENHA.jpg','LIMPEZA.jpg','LOUCA.jpg','LASANHA.jpg'],key:0},
 
-                           {question:"LE",options:['LOBO.jpg','LONTRA.jpg','LUVAS.jpg','LEITÃO.jpg'],key:3},
+                           {question:"LE",options:['LOBO.jpg','LONTRA.jpg','LUVAS.jpg','LEITAO.jpg'],key:3},
 
                            {question:"LE",options:['LIVROS.jpg','LESMA.jpg','LOUCA.jpg','LIMPEZA.jpg'],key:1},
 
