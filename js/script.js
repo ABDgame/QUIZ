@@ -1526,7 +1526,7 @@ const myApp=[
                structure:[
                            {question:"LO",options:['LARANJA.jpg','LOCOMOTIVA.jpg','LEAO.jpg','LAMPADA.jpg'],key:1},
                           
-                           {question:"LA",options:['LANCHE.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
+                           {question:"LA",options:['LANCHE.jpg','LIVROS.jpg','LIMONADA.jpg','LUVAS.jpg'],key:0},
                      
                            {question:"LE",options:['LIMAO.jpg','LATA.jpg','LEAO.jpg','LAPIS.jpg'],key:2},
                  
@@ -1636,13 +1636,13 @@ const myApp=[
                structure:[
                            {question:"LOCOMOTIVA",options:['LARANJA.jpg','LOCOMOTIVA.jpg','LEAO.jpg','LAMPADA.jpg'],key:1},
                           
-                           {question:"LANCHE",options:['LANCHE.jpg','LIVROS.jpg','LANTERNA.jpg','LAREIRA.jpg'],key:0},
+                           {question:"LANCHE",options:['LANCHE.jpg','LIVROS.jpg','LIQUIDIFICADOR.jpg','LAREIRA.jpg'],key:0},
                      
                            {question:"LEÃO",options:['LIMAO.jpg','LEITE.jpg','LEAO.jpg','LAPIS.jpg'],key:2},
                            
                            {question:"LÂMPADA",options:['LOCOMOTIVA.jpg','LIQUIDIFICADOR.jpg','LAGO.jpg','LAMPADA.jpg'],key:3},
 
-                           {question:"LANTERNA",options:['LAGARTIXA.jpg','LIMPEZA.jpg','LOUSA.jpg','LANTERNA.jpg'],key:3},
+                           {question:"LANTERNA",options:['KARATE.jpg','LIMPEZA.jpg','LOUSA.jpg','LANTERNA.jpg'],key:3},
 
                            {question:"LAREIRA",options:['LEQUE.jpg','LESMA.jpg','LAREIRA.jpg','LEITE.jpg'],key:2},
 
