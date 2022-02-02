@@ -1654,7 +1654,7 @@ const myApp=[
                            
                            {question:"LASANHA",options:['LOUSA.jpg','LASANHA.jpg','LOBO.jpg','LIMAO.jpg',],key:1},
 
-                           {question:"LÁPIS",options:['LAPIS.jpg','LOUCA.jpg','LONTRA.jpg','LIMPEZA.jpg'],key:0},
+                           {question:"LÁPIS",options:['LAPIS.jpg','LOBO.jpg','LONTRA.jpg','LIMPEZA.jpg'],key:0},
 
                            {question:"LIMPEZA",options:['LAGARTA.jpg','LARAJA.jpg','LIMPEZA.jpg','LOUSA.jpg'],key:2},
 
