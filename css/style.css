@@ -105,10 +105,6 @@ body{
   color: transparent;
   width:100%;
 }
-.key
-{
-  font-size: inherit;
-}
 
 @-webkit-keyframes question{
   0%{
