@@ -1636,11 +1636,11 @@ const myApp=[
                structure:[
                            {question:"LOCOMOTIVA",options:['LARANJA.jpg','LOCOMOTIVA.jpg','LEAO.jpg','LAMPADA.jpg'],key:1},
                           
-                           {question:"LANCHE",options:['LANCHE.jpg','LIVROS.jpg','LIQUIDIFICADOR.jpg','LAREIRA.jpg'],key:0},
+                           {question:"LANCHE",options:['LANCHE.jpg','LIVROS.jpg','LEBRE.jpg','LAREIRA.jpg'],key:0},
                      
                            {question:"LEÃO",options:['LIMAO.jpg','LEITE.jpg','LEAO.jpg','LAPIS.jpg'],key:2},
                            
-                           {question:"LÂMPADA",options:['LOCOMOTIVA.jpg','LIQUIDIFICADOR.jpg','LAGO.jpg','LAMPADA.jpg'],key:3},
+                           {question:"LÂMPADA",options:['LOCOMOTIVA.jpg','LEBRE.jpg','LAGO.jpg','LAMPADA.jpg'],key:3},
 
                            {question:"LANTERNA",options:['KARATE.jpg','LIMPEZA.jpg','LOUSA.jpg','LANTERNA.jpg'],key:3},
 
@@ -1696,13 +1696,13 @@ const myApp=[
 
                            {question:"LUNETA",  options:['LIMONADA.jpg','LEITE.jpg','LUNETA.jpg','LAPIS.jpg'],key:2},                     
 
-                           {question:"LIXEIRA",options:['LEGO.jpg','LIXEIRA.jpg','LANCHE.jpg','LIQUIDIFICADOR.jpg'],key:1},
+                           {question:"LIXEIRA",options:['LEGO.jpg','LIXEIRA.jpg','LANCHE.jpg','LEBRE.jpg'],key:1},
 
                            {question:"LIMONADA",options:['LIMONADA.jpg','LANCHE.jpg','LUMINARIA.jpg','LIXO.jpg'],key:0},
 
-                           {question:"LIQUIDIFICADOR",options:['LAMPADA.jpg','LENTO.jpg','LEAO.jpg','LIQUIDIFICADOR.jpg'],key:3},
+                           {question:"LEBRE",options:['LAMPADA.jpg','LUA.jpg','LEAO.jpg','LEBRE.jpg'],key:3},
 
-                           {question:"LIVRO",options:['LUA.jpg','LIVRO.jpg','LUNETA.jpg','LANCHE.jpg'],key:1},
+                           {question:"LIVRO",options:['LUA.jpg','LIVROS.jpg','LUNETA.jpg','LANCHE.jpg'],key:1},
                              
                            {question:"LINGUA",options:['LAGARTA.jpg','LEQUE.jpg','LINGUA.jpg','LENHA.jpg'],key:2},
 
