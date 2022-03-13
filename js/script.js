@@ -1855,31 +1855,31 @@ const myApp=[
                msg:" ",
                path:"images/vogais",
                structure:[
-                           {question:"LO",options:['LARANJA.jpg','LOCOMOTIVA.jpg','LEAO.jpg','LAMPADA.jpg'],key:1},
+                           {question:"MAÇÃ",options:['LARANJA.jpg','MACA.jpg','LEAO.jpg','LAMPADA.jpg'],key:1},
                           
-                           {question:"LA",options:['LANCHE.jpg','LIVROS.jpg','LIMONADA.jpg','LUVAS.jpg'],key:0},
+                           {question:"MACACO",options:['M.jpg','LIVROS.jpg','LIMONADA.jpg','MACACO.jpg'],key:3},
                      
-                           {question:"LE",options:['LIMAO.jpg','LATA.jpg','LEAO.jpg','LAPIS.jpg'],key:2},
+                           {question:"MALABARISTA",options:['LIMAO.jpg','MALABARISTA.jpg','LEAO.jpg','LAPIS.jpg'],key:1},
                  
-                           {question:"KA",options:['KARATE.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
+                           {question:"MAMÃO",options:['KARATE.jpg','LIVROS.jpg','MAMAO.jpg','LUVAS.jpg'],key:2},
                  
-                           {question:"KI",options:['LANCHE.jpg','KIMONO.jpg','LANTERNA.jpg','LUVAS.jpg'],key:1},
+                           {question:"MARACUJÁ",options:['LANCHE.jpg','MARACUJA.jpg','LANTERNA.jpg','LUVAS.jpg'],key:1},
                            
-                           {question:"KO",options:['LANCHE.jpg','LIVROS.jpg','LANTERNA.jpg','KOMBI.jpg'],key:3},
+                           {question:"MEL",options:['MEL.jpg','LIVROS.jpg','LANTERNA.jpg','KOMBI.jpg'],key:0},
                            
-                           {question:"KI",options:['KIWI.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
+                           {question:"MELANCIA",options:['KIWI.jpg','LIVROS.jpg','LANTERNA.jpg','MELANCIA.jpg'],key:3},
                            
-                           {question:"KU",options:['LANCHE.jpg','LIVROS.jpg','KUNGFU.jpg','LUVAS.jpg'],key:2},
+                           {question:"MELAO",options:['LANCHE.jpg','LIVROS.jpg','MELAO.jpg','LUVAS.jpg'],key:2},
                  
-                           {question:"KI",options:['LANCHE.jpg','KINGKONG.jpg','LANTERNA.jpg','LUVAS.jpg'],key:1},
+                           {question:"MESA",options:['LANCHE.jpg','MESA.jpg','LANTERNA.jpg','LUVAS.jpg'],key:1},
                  
-                           {question:"KA",options:['LANCHE.jpg','LIVROS.jpg','LANTERNA.jpg','KARAOKE.jpg'],key:3},
+                           {question:"MILHO",options:['LANCHE.jpg','LIVROS.jpg','LANTERNA.jpg','MILHO.jpg'],key:3},
                  
-                           {question:"KI",options:['KINDER.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
+                           {question:"MILKSHAKE",options:['KINDER.jpg','MILKSHAKE.jpg','LANTERNA.jpg','LUVAS.jpg'],key:1},
                  
-                           {question:"KO",options:['LANCHE.jpg','LIVROS.jpg','KOALAS.jpg','LUVAS.jpg'],key:2},
+                           {question:"MOANA",options:['LANCHE.jpg','LIVROS.jpg','MOANA.jpg','LUVAS.jpg'],key:2},
                  
-                           {question:"KE",options:['KETCHUP.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
+                           {question:"MORANGO",options:['MORANGO.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
                  
                            {question:"LA",options:['LOCOMOTIVA.jpg','LIQUIDIFICADOR.jpg','LOUSA.jpg','LAMPADA.jpg'],key:3},
 
