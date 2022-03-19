@@ -1668,9 +1668,9 @@ const myApp=[
                            
                            {question:"KUNG-FU",options:['LANCHE.jpg','LIVROS.jpg','KUNGFU.jpg','LUVAS.jpg'],key:2},
                  
-                           {question:"KING - KONG",options:['LANCHE.jpg','KINGKONG.jpg','LANTERNA.jpg','LUVAS.jpg'],key:1},
+                           {question:"LAVAR",options:['LANCHE.jpg','LAVAR.jpg','LANTERNA.jpg','LUVAS.jpg'],key:1},
                  
-                           {question:"KARAOKE",options:['LANCHE.jpg','KOALAS.jpg','LANTERNA.jpg','KARAOKE.jpg'],key:3},
+                           {question:"LENTO",options:['LANCHE.jpg','KOALAS.jpg','LANTERNA.jpg','LENTO.jpg'],key:3},
                  
                            {question:"KINDER",options:['KINDER.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
                  
@@ -1690,7 +1690,7 @@ const myApp=[
 
                            {question:"LENHA",options:['LENHA.jpg','LEITE.jpg','LENHA.jpg','LEAO.jpg'],key:0},
 
-                           {question:"LEITÃO",options:['LOBO.jpg','LONTRA.jpg','LUVAS.jpg','LEITAO.jpg'],key:3},
+                           {question:"LEGUMES",options:['LOBO.jpg','LONTRA.jpg','LUVAS.jpg','LEGUMES.jpg'],key:3},
 
                            {question:"LESMA",options:['LIVRO.jpg','LESMA.jpg','LOUCA.jpg','LIMPEZA.jpg'],key:1},
 
@@ -1710,7 +1710,7 @@ const myApp=[
 
                            {question:"LOBO",options: ['LUPA.jpg', 'LOUSA.jpg','LEAO.jpg','LOBO.jpg'],key:3},
 
-                           {question:"LIMOSINE",options:['LIMOSINE.jpg','LENHA.jpg','LOCOMOTIVA.jpg','LENTO.jpg'],key:0},
+                           {question:"LAGRIMAS",options:['LAGRIMAS.jpg','LENHA.jpg','LOCOMOTIVA.jpg','LENTO.jpg'],key:0},
 
                            {question:"LONTRA",options:['LOUCA.jpg','LONTRA.jpg','LARANJA.jpg','LANTERNA.jpg'],key:1},
 
@@ -1718,7 +1718,7 @@ const myApp=[
 
                            {question:"LOJA",options:['LENTO.jpg','LAGO.jpg','LOJA.jpg','LAGARTIXA.jpg'],key:2},
 
-                           {question:"LENHADOR",options:['LABIRINTO.jpg','LARANJA.jpg','LIMPEZA.jpg','LENHADOR.jpg'],key:3},
+                           {question:"LENHADOR",options:['LAGARTO.jpg','LARANJA.jpg','LIMPEZA.jpg','LENHADOR.jpg'],key:3},
 
                            {question:"LUA",options:['LOUSA.jpg','LOBO.jpg','LUA.jpg','LIMPEZA.jpg'],key:2},
 
@@ -1726,11 +1726,11 @@ const myApp=[
 
                            {question:"LUTA",options:['LEGO.jpg','LUTA.jpg','LANCHE.jpg','LENCO.jpg' ],key:1},
 
-                           {question:"LUVAS",options:['LENCO.jpg','LOBO.jpg','LUVAS.jpg','LOCOMOTIVA.jpg'],key:2},
+                           {question:"LUVAS",options:['LENTO.jpg','LOBO.jpg','LUVAS.jpg','LOCOMOTIVA.jpg'],key:2},
                            
-                           {question:"LAVANDERIA",options:['LAVANDERIA.jpg' ,'LEITE.jpg','LIXO.jpg','LENTO.jpg'],key:0},
+                           {question:"LAVADOURA",options:['LAVADOURA.jpg','LEITE.jpg','LIXO.jpg','LENTO.jpg'],key:0},
 
-                           {question:"LULA",options:['LIXO.jpg' ,'LATA.jpg','LAMA.jpg','LULA.jpg'],key:3},
+                           {question:"LULA",options:['LIXO.jpg','LATA.jpg','LAMA.jpg','LULA.jpg'],key:3},
 
                            {question:"LOCOMOTIVA",options:['LAMA.jpg','LOCOMOTIVA.jpg','LENHA.jpg','LUPA.jpg'],key:1},
 
