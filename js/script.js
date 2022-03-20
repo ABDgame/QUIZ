@@ -1675,7 +1675,7 @@ const myApp=[
                  
                            {question:"KETCHUP",options:['KETCHUP.jpg','LIVROS.jpg','LEGUMES.jpg','LUVAS.jpg'],key:0},
                                 
-                           {question:"LAGARTIXA",options:['LEAO.jpg','LAGARTIXA.jpg','LIVRO.jpg','LEITURA.jpg'],key:1},
+                           {question:"LAGARTIXA",options:['LEAO.jpg','LAGARTIXA.jpg','LIVROS.jpg','LEITURA.jpg'],key:1},
 
                            {question:"LEITE",options:['LEGO.jpg','LENTO.jpg','LEITE.jpg','LIXO.jpg'],key:2},
 
