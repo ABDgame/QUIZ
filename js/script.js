@@ -1640,7 +1640,7 @@ const myApp=[
                      
                            {question:"LEÃO",options:['LIMAO.jpg','LEITE.jpg','LEAO.jpg','LAPIS.jpg'],key:2},
                            
-                           {question:"LÂMPADA",options:['LOCOMOTIVA.jpg','LEBRE.jpg','LAGO.jpg','LAMPADA.jpg'],key:3},
+                           {question:"LÂMPADA",options:['LAVAR.jpg','LEBRE.jpg','LAGO.jpg','LAMPADA.jpg'],key:3},
 
                            {question:"LANTERNA",options:['KARATE.jpg','LIMPEZA.jpg','LOUSA.jpg','LANTERNA.jpg'],key:3},
 
