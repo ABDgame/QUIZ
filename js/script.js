@@ -1711,7 +1711,7 @@ const myApp=[
 
                            {question:"LONTRA",options:['LOUCA.jpg','LONTRA.jpg','LARANJA.jpg','LANTERNA.jpg'],key:1},
 
-                           {question:"LOUÇA",options:['LIMAO.jpg','LUPA.jpg','LUVAS.jpg','LOUCA.jpg'],key:3},
+                           {question:"LAMA",options:['LIMAO.jpg','LUPA.jpg','LUVAS.jpg','LAMA.jpg'],key:3},
 
                            {question:"LENHADOR",options:['LAGARTO.jpg','LARANJA.jpg','LIMPEZA.jpg','LENHADOR.jpg'],key:3},
 
@@ -1727,7 +1727,7 @@ const myApp=[
 
                            {question:"LULA",options:['LIXO.jpg','LATA.jpg','LAMA.jpg','LULA.jpg'],key:3},
 
-                           {question:"LOCOMOTIVA",options:['LAMA.jpg','LOCOMOTIVA.jpg','LENHA.jpg','LUPA.jpg'],key:1},
+                           {question:"LADRÃO",options:['LAMA.jpg','LADRAO.jpg','LENHA.jpg','LUPA.jpg'],key:1},
 
                            {question:"LUPA",options:['LARANJA.jpg','LUPA.jpg','LIMPEZA.jpg','LUMINARIA.jpg'],key:0}
                      
