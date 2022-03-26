@@ -1681,7 +1681,7 @@ const myApp=[
 
                            {question:"LEGO",options:['LAVAR.jpg','LEGUMES.jpg','LEQUE.jpg','LEGO.jpg',],key:3},
 
-                           {question:"LEQUE",options:['LEQUE.jpg','LOCOMOTIVA.jpg','LIVRO.jpg','LEAO.jpg'],key:0},
+                           {question:"LEQUE",options:['LEQUE.jpg','LOCOMOTIVA.jpg','LIVROS.jpg','LEAO.jpg'],key:0},
 
                            {question:"LEOA",options:['LUA.jpg','LARANJA.jpg','LEOA.jpg','LAVAR.jpg',],key:2},
 
