@@ -1526,11 +1526,11 @@ const myApp=[
                structure:[
                           {question:"LO",options:['LARANJA.jpg','LOCOMOTIVA.jpg','LEAO.jpg','LAMPADA.jpg'],key:1},
                           
-                           {question:"LA",options:['LANCHE.jpg','LIVROS.jpg','LEBRE.jpg','LAREIRA.jpg'],key:0},
+                           {question:"LA",options:['LANCHE.jpg','LIVROS.jpg','LEBRE.jpg','LERDO.jpg'],key:0},
                      
-                           {question:"LE",options:['LIMAO.jpg','LEITE.jpg','LEAO.jpg','LAPIS.jpg'],key:2},
+                           {question:"LE",options:['LIMAO.jpg','LOBO.jpg','LEAO.jpg','LAPIS.jpg'],key:2},
                            
-                           {question:"LÂ",options:['LAVAR.jpg','LEBRE.jpg','LAGO.jpg','LAMPADA.jpg'],key:3},
+                           {question:"LÂ",options:['LAVAR.jpg','LEBRE.jpg','LIMAO.jpg','LAMPADA.jpg'],key:3},
 
                            {question:"LA",options:['KARATE.jpg','LIMPEZA.jpg','LOUSA.jpg','LANTERNA.jpg'],key:3},
 
@@ -1538,7 +1538,7 @@ const myApp=[
 
                            {question:"LA",options:['LEGO.jpg','LARANJA.jpg','LIMPEZA.jpg','LUA.jpg'],key:1},
                            
-                           {question:"LA",options:['LAGOSTA.jpg','LUTADOR.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
+                           {question:"LA",options:['LAGOSTA.jpg','LUTADOR.jpg','LIMONADA.jpg','LUVAS.jpg'],key:0},
 
                            {question:"LA",options:['LEITE.jpg','LUPA.jpg','KARATE.jpg','LAGO.jpg'],key:3},
                            
@@ -1556,11 +1556,11 @@ const myApp=[
                            
                            {question:"KI",options:['KIWI.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
                            
-                           {question:"LÁ",options:['LANCHE.jpg','LEGO.jpg','LAGRIMAS.jpg','LUVAS.jpg'],key:2},
+                           {question:"LÁ",options:['LEGUMES.jpg','LEGO.jpg','LAGRIMAS.jpg','LUVAS.jpg'],key:2},
                  
                            {question:"LA",options:['LOBO.jpg','LAVAR.jpg','LANTERNA.jpg','LUVAS.jpg'],key:1},
                  
-                           {question:"LE",options:['LEGUMES.jpg','KOALAS.jpg','LANTERNA.jpg','LENTO.jpg'],key:3},
+                           {question:"LE",options:['LARANJA.jpg','KOALAS.jpg','LANTERNA.jpg','LENTO.jpg'],key:3},
                  
                            {question:"KI",options:['KINDER.jpg','LIVROS.jpg','LANTERNA.jpg','LUVAS.jpg'],key:0},
                  
@@ -1570,11 +1570,11 @@ const myApp=[
                                 
                            {question:"LA",options:['LEAO.jpg','LAGARTIXA.jpg','LIVROS.jpg','LEITURA.jpg'],key:1},
 
-                           {question:"LE",options:['LEGO.jpg','LENTO.jpg','LEITE.jpg','LIXO.jpg'],key:2},
+                           {question:"LE",options:['LAGOSTA.jpg','LIMAO.jpg','LEITE.jpg','LIXO.jpg'],key:2},
 
-                           {question:"LE",options:['LAVAR.jpg','LEGUMES.jpg','LEQUE.jpg','LEGO.jpg',],key:3},
+                           {question:"LE",options:['LAVAR.jpg','LIXO.jpg','LAVAR.jpg','LEGO.jpg',],key:3},
 
-                           {question:"LE",options:['LEQUE.jpg','LOCOMOTIVA.jpg','LIVROS.jpg','LEAO.jpg'],key:0},
+                           {question:"LE",options:['LEQUE.jpg','LOCOMOTIVA.jpg','LIVROS.jpg','LATA.jpg'],key:0},
 
                            {question:"LE",options:['LUA.jpg','LARANJA.jpg','LEOA.jpg','LAVAR.jpg',],key:2},
 
@@ -1602,7 +1602,7 @@ const myApp=[
 
                            {question:"LÁ",options:['LAGRIMAS.jpg','LENHA.jpg','LOCOMOTIVA.jpg','LENTO.jpg'],key:0},
 
-                           {question:"LO",options:['LOUCA.jpg','LONTRA.jpg','LARANJA.jpg','LANTERNA.jpg'],key:1},
+                           {question:"LO",options:['LOUSA.jpg','LONTRA.jpg','LARANJA.jpg','LANTERNA.jpg'],key:1},
 
                            {question:"LA",options:['LIMAO.jpg','LUPA.jpg','LUVAS.jpg','LAMA.jpg'],key:3},
 
@@ -1707,7 +1707,7 @@ const myApp=[
 
                            {question:"LÁGRIMAS",options:['LAGRIMAS.jpg','LENHA.jpg','LOCOMOTIVA.jpg','LENTO.jpg'],key:0},
 
-                           {question:"LONTRA",options:['LOUCA.jpg','LONTRA.jpg','LARANJA.jpg','LANTERNA.jpg'],key:1},
+                           {question:"LONTRA",options:['LOUSA.jpg','LONTRA.jpg','LARANJA.jpg','LANTERNA.jpg'],key:1},
 
                            {question:"LAMA",options:['LIMAO.jpg','LUPA.jpg','LUVAS.jpg','LAMA.jpg'],key:3},
 
