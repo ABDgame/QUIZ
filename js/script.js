@@ -2688,14 +2688,14 @@ const myApp=[
                       const span=document.createElement("span");
                      if(this.id==that.app.structure[that.index].key){
                          span.innerHTML="  =D  ";
-                         somAcerto.play();
+                         somAcerto.play()
                          this.classList.add("correta");
                          that.score++;
                          that.scoreBoard();
                       }
                       else{
                           span.innerHTML="  =(  ";
-                          somErro.play();
+                          somErro.play()
                           this.classList.add("errada");
                       }
                       this.appendChild(span);
@@ -2710,7 +2710,9 @@ const myApp=[
                            else if (that.optionEle.children[j].id==that.app.structure[that.index].key){
                                 var span2=document.createElement("span")
                                 span2.innerHTML=" =P ";
+                             
                                 that.optionEle.children[j].appendChild(span2)
+                               
                                 that.optionEle.children[j].classList.add("correta");
                           }
                           else{
