@@ -1717,7 +1717,7 @@ const myApp=[
 
                            {question:"LUNETA",options:['LUNETA.jpg','LIMPEZA.jpg','LOBO.jpg','LEGO.jpg'],key:0},
 
-                           {question:"LUTA",options:['LEGO.jpg','LUTA.jpg','LANCHE.jpg','LENCO.jpg' ],key:1},
+                           {question:"LUTA",options:['LEGO.jpg','LUTA.jpg','LANCHE.jpg','LEAO.jpg' ],key:1},
 
                            {question:"LUVAS",options:['LENTO.jpg','LOBO.jpg','LUVAS.jpg','LOCOMOTIVA.jpg'],key:2},
                            
@@ -1826,7 +1826,7 @@ const myApp=[
 
                            {question:"LU",options:['LUNETA.jpg','LIMPEZA.jpg','LOBO.jpg','LEGO.jpg'],key:0},
 
-                           {question:"LU",options:['LEGO.jpg','LUTA.jpg','LANCHE.jpg','LENCO.jpg' ],key:1},
+                           {question:"LU",options:['LEGO.jpg','LUTA.jpg','LANCHE.jpg','LESMA.jpg' ],key:1},
 
                            {question:"LU",options:['LENCO.jpg','LOBO.jpg','LUVAS.jpg','LOCOMOTIVA.jpg'],key:2},
                            
