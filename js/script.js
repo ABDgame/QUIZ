@@ -2643,7 +2643,13 @@ const myApp=[
                 this.scoreBoard();
 
            }
-
+       
+       { 
+          //AUDIO
+          let somAcerto = document.querySelector('#somAcerto')
+          let somErro = document.querySelector('#somErro')
+          let somAplausos = document.querySelector('#somAplausos')
+       }  
            setQuestion(){ 
                this.msgEle.innerHTML=this.app.msg;
                this.quizEle.innerHTML=this.app.structure[this.index].question;
@@ -2682,12 +2688,14 @@ const myApp=[
                       const span=document.createElement("span");
                      if(this.id==that.app.structure[that.index].key){
                          span.innerHTML="  =D  ";
+                         somAcerto.play();
                          this.classList.add("correta");
                          that.score++;
                          that.scoreBoard();
                       }
                       else{
                           span.innerHTML="  =(  ";
+                          somErro.play();
                           this.classList.add("errada");
                       }
                       this.appendChild(span);
@@ -2703,7 +2711,7 @@ const myApp=[
                                 var span2=document.createElement("span")
                                 span2.innerHTML=" =P ";
                                 that.optionEle.children[j].appendChild(span2)
-                               that.optionEle.children[j].classList.add("correta");
+                                that.optionEle.children[j].classList.add("correta");
                           }
                           else{
                                that.optionEle.children[j].classList.add("hide"); 
