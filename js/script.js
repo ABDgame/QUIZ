@@ -1717,7 +1717,7 @@ const myApp=[
 
                            {question:"LUNETA",options:['LUNETA.jpg','LIMPEZA.jpg','LOBO.jpg','LEGO.jpg'],key:0},
 
-                           {question:"LUTA",options:['LEGO.jpg','LUTA.jpg','LANCHE.jpg','LEAO.jpg' ],key:1},
+                           {question:"LUTADOR",options:['LEGO.jpg','LUTADOR.jpg','LANCHE.jpg','LEAO.jpg' ],key:1},
 
                            {question:"LUVAS",options:['LENTO.jpg','LOBO.jpg','LUVAS.jpg','LOCOMOTIVA.jpg'],key:2},
                            
