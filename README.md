@@ -3,4 +3,8 @@ Trechos de códigos de um questionário das famílias silábicas com imagens, co
 
 https://mqjogos.github.io/QUIZ/app.html
 
+<h1>VOGAIS INICIAIS</h1>
+<img src="QUIZ.png" width="800px">
+
+<h1>VOGAIS PALAVRAS</h1>
 <img src="QUIZ.png" width="800px">
