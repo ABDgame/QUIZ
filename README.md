@@ -8,3 +8,27 @@ https://mqjogos.github.io/QUIZ/app.html
 
 <h1>VOGAIS PALAVRAS</h1>
 <img src="002.jpg" width="500px">
+  
+# CÓDIGO FONTE:
+ - 
+#
+ - 
+#
+ - 
+#
+
+
+# Color Palette:
+ - https://mycolor.space
+
+# Editor de Imagens Online:
+ - https://www.resizepixel.com/pt/edit
+
+# Imagens:
+- https://www.freepik.com/
+- https://www.storyset.com/
+- https://www.undraw.com/
+- https://www.pixabay.com/
+- https://www.unsplash.com/
+- https://www.flaticon.com/
+- https://www.pngegg.com/
