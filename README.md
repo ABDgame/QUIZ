@@ -4,7 +4,7 @@ Trechos de códigos de um questionário das famílias silábicas com imagens, co
 https://mqjogos.github.io/QUIZ/app.html
 
 <h1>VOGAIS INICIAIS</h1>
-<img src="001.jpg" width="500px" src="">
+<img src="001.jpg" width="500px" src="Ilustração de um iglu azul em uma folha de caderno">
 
 <h1>VOGAIS PALAVRAS</h1>
 <img src="002.jpg" width="500px" src="">
