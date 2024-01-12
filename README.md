@@ -7,7 +7,7 @@ https://mqjogos.github.io/QUIZ/app.html
 <img src="001.jpg" width="500px" alt="Ilustração de um iglu azul em uma folha de caderno">
 
 <h1>VOGAIS PALAVRAS</h1>
-<img src="002.jpg" width="500px" alt="Ilustração de uma estrela dourada em uma folha de cederno">
+<img src="002.jpg" width="500px" alt="Ilustração de uma estrela dourada em uma folha de caderno">
   
 # CÓDIGO FONTE:
  - 
