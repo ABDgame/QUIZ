@@ -4,10 +4,10 @@ Trechos de códigos de um questionário das famílias silábicas com imagens, co
 https://mqjogos.github.io/QUIZ/app.html
 
 <h1>VOGAIS INICIAIS</h1>
-<img src="001.jpg" width="500px">
+<img src="001.jpg" width="500px" src="">
 
 <h1>VOGAIS PALAVRAS</h1>
-<img src="002.jpg" width="500px">
+<img src="002.jpg" width="500px" src="">
   
 # CÓDIGO FONTE:
  - 
